@@ -12,6 +12,9 @@ namespace TekSan
             // --- Kestrel Limits ---
             builder.WebHost.ConfigureKestrel(options =>
             {
+                // Sadece HTTP portu dinleniyor (HTTPS kaldýrýldý)
+                options.ListenAnyIP(6543);
+
                 options.Limits.MaxConcurrentConnections = 200;
                 options.Limits.MaxConcurrentUpgradedConnections = 200;
                 options.Limits.MaxRequestBodySize = 10 * 1024 * 1024; // 10 MB
@@ -64,14 +67,14 @@ namespace TekSan
 
             var app = builder.Build();
 
-            // --- Hata & HSTS ---
+            // --- Hata Sayfalarý (HSTS ve HTTPS yönlendirmesi kaldýrýldý) ---
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
+                // app.UseHsts(); // Nginx HTTPS terminasyonu yaptýðý için kaldýrýldý
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection(); // HTTPS yönlendirmesi devre dýþý býrakýldý
             app.UseStaticFiles();
 
             app.UseForwardedHeaders();
