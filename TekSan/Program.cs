@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.EntityFrameworkCore;
 using System.Threading.RateLimiting;
+using TekSan.Models;
 
 namespace TekSan
 {
@@ -61,6 +63,10 @@ namespace TekSan
                     context.HttpContext.Response.Headers.RetryAfter = "60";
                     await context.HttpContext.Response.WriteAsync("Çok fazla istek. Lütfen sonra tekrar dene.", ct);
                 };
+            });
+            builder.Services.AddDbContext<RepositoryContext>(options =>
+            {
+                options.UseNpgsql(builder.Configuration.GetConnectionString("sqlconnection"));
             });
 
             builder.Services.AddControllersWithViews();
