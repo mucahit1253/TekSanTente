@@ -5,15 +5,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using TekSan.Models;
+using Repositories;
 
 #nullable disable
 
 namespace TekSan.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20251009193435_ProductSeedData")]
-    partial class ProductSeedData
+    [Migration("20251013182933_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace TekSan.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("TekSan.Models.Product", b =>
+            modelBuilder.Entity("Entities.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,6 +35,10 @@ namespace TekSan.Migrations
 
                     b.Property<int?>("CategoryId")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -56,6 +60,7 @@ namespace TekSan.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
+                            Comment = "Pergole Tenteler Ticari alanlarda veya konutlarda kullanılan pergole tente sistemleri, dış mekanda yaşam kalitesini yükselten ekipmanlardan oluşur. Çok uzun yıllar boyunca kullanılan pergole tente, hava koşullarına karşı en ideal yaşam alanları oluşturmayı sağlar. Bu sistemler teknolojik gelişmelerle birlikte güncellenip motor ve sensör desteğiyle daha kullanışlı hale gelmiştir. İşyeriniz veya eviniz için ihtiyacınız olan tüm pergola tenteleri firmamızdan uygun fiyatlarla tedarik edebilirsiniz. ",
                             Name = "Pergole Tente",
                             Price = 2000m,
                             Slug = "pergole-tente"
@@ -64,6 +69,7 @@ namespace TekSan.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
+                            Comment = "Körüklü tentelerin kurulumu ve kullanıma kolay tente modellerinden sadece biridir. Tente Sistemi Akordeon Şeklinde Açılıp Kapanmaktadır Diğer Tentelerde Farkı yan kısımlar Kapalı olduğundan Güneş ve Yağmur gelmesini Engeller  kullanıldığı alanlarda şık Dizaynı ve Tasarımıyla bulunduğu alana ayrı bir Görsellik katar.\r\n\r\nKörüklü Sisteminin Saçak Modeli Deniz dalgası modeli veya Düz saçak modeli tercih edilmektedir.",
                             Name = "Körük Tente",
                             Price = 2500m,
                             Slug = "koruk-tente"
@@ -72,6 +78,7 @@ namespace TekSan.Migrations
                         {
                             Id = 3,
                             CategoryId = 1,
+                            Comment = "Stor tente normal mafsallı tentenin kolsuz modelidir.karşıdan gelen güneş için tercih edilen bir modeldir. Stor tente Yukardan aşağı açılıp kapanan bir modeldir istenildiği taktirde motorlu sistemde uyumludur.stor tente asıl amacı, gölgelendirme işlevini yapmak olsa da fonksiyonellik yönünden de hiçbir şekilde sınır tanımamaktadır.",
                             Name = "Stor Tente",
                             Price = 1500m,
                             Slug = "stor-tente"
@@ -80,6 +87,7 @@ namespace TekSan.Migrations
                         {
                             Id = 4,
                             CategoryId = 1,
+                            Comment = "Çift açılır tente kurulumu ve kullanımı kolay tente modellerinden sadece biridir.\r\n\r\nBu tente sayesinde hem daha sağlıklı bir hava ortamına sahip olursunuz hemde iş yerleriniz daha güzel bire görünüme kavuşmaktadır. taksitli fiyatları akrilik kumaşlı ısı geçirmeyen garanti belgeli kaliteli",
                             Name = "Çift Açılır Tente",
                             Price = 5000m,
                             Slug = "cift-acılır-tente"
@@ -88,6 +96,7 @@ namespace TekSan.Migrations
                         {
                             Id = 5,
                             CategoryId = 1,
+                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
                             Name = "Mafsallı Tente",
                             Price = 30000m,
                             Slug = "mafsalli-tente"

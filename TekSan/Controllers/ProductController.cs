@@ -1,20 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TekSan.Models;
+using Repositories.Contracts;
+
 
 namespace TekSan.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly RepositoryContext _context;
+        private readonly IRepositoryManager _manager;
 
-        public ProductController(RepositoryContext context)
+        public ProductController(IRepositoryManager manager)
         {
-            _context = context;
+            _manager = manager;
         }
 
         public IActionResult Index()
         {
-            var model = _context.Products.ToList();
+            var model = _manager.Product.GetAllProducts(false);
+            return View(model);
+        }
+        [HttpGet("Product/{slug}")]
+        public IActionResult Get(string slug)
+        {
+            var model = _manager.Product.GetOneProduct(slug, false);
             return View(model);
         }
     }

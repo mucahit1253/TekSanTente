@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
+using Repositories;
+using Repositories.Contracts;
 using System.Threading.RateLimiting;
-using TekSan.Models;
 
 namespace TekSan
 {
@@ -66,8 +67,13 @@ namespace TekSan
             });
             builder.Services.AddDbContext<RepositoryContext>(options =>
             {
-                options.UseNpgsql(builder.Configuration.GetConnectionString("sqlconnection"));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("sqlconnection"),
+                    b => b.MigrationsAssembly("TekSan"));
             });
+            builder.Services.AddScoped<IRepositoryManager, RepositoryManger>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
+
 
             builder.Services.AddControllersWithViews();
 

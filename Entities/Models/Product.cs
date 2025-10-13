@@ -1,4 +1,4 @@
-﻿namespace TekSan.Models
+﻿namespace Entities.Models
 {
     public class Product
     {
@@ -8,7 +8,6 @@
         public string Name { get; set; }
         public string Slug { get; set; }
         public decimal Price { get; set; }
-
-
+        public string Comment { get; set; }
     }
 }
