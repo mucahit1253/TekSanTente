@@ -1,8 +1,15 @@
 ﻿@model Product
+@{
+    var cover = Model.Images
+        ?.OrderByDescending(i => i.IsMain)   // true kapaksa önce
+         .ThenBy(i => i.DisplayOrder)        // eşitlikte sıraya göre
+        .FirstOrDefault();
 
+    var imgPath = cover?.Media?.Url ?? "assets/img/placeholder.png";
+}
 <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
     <div class="card">
-        <img src="assets/img/properties/property-1.jpg" alt="" class="img-fluid">
+        <img src="@imgPath" alt="" class="img-fluid">
         <div class="card-body">
             <span class="sale-rent"> Satın Al</span>
             <h3><a asp-action="Get" asp-route-slug="@Model.Slug" class="stretched-link">@Model.Name</a></h3>

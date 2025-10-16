@@ -29,5 +29,13 @@ namespace Repositories
 
 
         }
+        public IQueryable<T> FindCondition(Expression<Func<T, bool>> exception, bool trackChanges)
+        {
+            return trackChanges
+                ? _context.Set<T>().Where(exception)
+                : _context.Set<T>().Where(exception).AsNoTracking();
+
+
+        }
     }
 }

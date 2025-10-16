@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Repositories.Contracts;
 using System.Diagnostics;
 using TekSan.Models;
 
@@ -7,17 +8,26 @@ namespace TekSan.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private IRepositoryManager _manager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IRepositoryManager manager)
         {
             _logger = logger;
+            _manager = manager;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var model = _manager.Category.GetAllCategory(false);
+            return View(model);
         }
 
+        public IActionResult Get(int id)
+        {
+            var model = _manager.Category.GetOneCategory(id, false);
+
+            return View(model);
+        }
         public IActionResult Privacy()
         {
             return View();
