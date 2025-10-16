@@ -12,7 +12,7 @@ using Repositories;
 namespace TekSan.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20251015191630_init")]
+    [Migration("20251016191349_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -162,14 +162,13 @@ namespace TekSan.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("Comment")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<decimal>("Price")
+                    b.Property<decimal?>("Price")
                         .HasColumnType("numeric");
 
                     b.Property<string>("Slug")

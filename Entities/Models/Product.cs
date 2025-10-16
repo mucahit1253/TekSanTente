@@ -7,9 +7,9 @@
 
         public string Name { get; set; }
         public string Slug { get; set; }
-        public decimal Price { get; set; }
-        public string Comment { get; set; }
-        public Category Category { get; set; }
+        public decimal? Price { get; set; }
+        public string? Comment { get; set; }
+        public Category? Category { get; set; }
         public ICollection<ProductImage> Images { get; set; }
     }
 }

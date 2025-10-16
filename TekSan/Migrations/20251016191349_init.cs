@@ -69,8 +69,8 @@ namespace TekSan.Migrations
                     CategoryId = table.Column<int>(type: "integer", nullable: true),
                     Name = table.Column<string>(type: "text", nullable: false),
                     Slug = table.Column<string>(type: "text", nullable: false),
-                    Price = table.Column<decimal>(type: "numeric", nullable: false),
-                    Comment = table.Column<string>(type: "text", nullable: false)
+                    Price = table.Column<decimal>(type: "numeric", nullable: true),
+                    Comment = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
