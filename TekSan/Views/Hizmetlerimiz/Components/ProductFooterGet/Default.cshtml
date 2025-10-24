@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<Product>
-
+<p></p>
 <div class="row gy-4">
     @foreach (var prd in Model)
     {
@@ -9,8 +9,8 @@
         .FirstOrDefault();
 
         var src = Url.Content(cover ?? "~/assets/img/placeholder.png");
-
-        <div class="col-xl-4 col-md-5" data-aos="fade-up" data-aos-delay="100">
+        
+        <div class="col-xl-3 col-md-1" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
                 <img src="@src" alt="@prd.Name" class="img-fluid" loading="lazy" />
                 <div class="card-body">
