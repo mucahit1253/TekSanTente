@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Service>
+
+<nav id="navmenu" class="navmenu">
+    <ul>
+        <li><a asp-controller="Home" asp-action="Index" class="active">AnaSayfa</a></li>
+        <li><a asp-controller="About" asp-action="Index">Hakkımızda</a></li>
+
+        <li class="dropdown">
+            <!-- Sadece dropdown açsın; sayfaya gitmesin -->
+            <a  asp-controller="Hizmetlerimiz" asp-action="Index">
+                <span>Hizmetlerimiz</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+
+            <ul>
+                @foreach (var prd in Model)
+                {
+                    var hasChildren = prd.Children != null && prd.Children.Any();
+
+                    <li class="@(hasChildren ? "dropdown" : "")">
+                        <a asp-controller="Hizmetlerimiz" asp-action="Detail" asp-route-slug="@prd.Slug">
+                            <span>@prd.Name</span>
+                            @if (hasChildren)
+                            {
+                                <i class="bi bi-chevron-down toggle-dropdown"></i>
+                            }
+                        </a>
+
+                        @if (hasChildren)
+                        {
+                            <ul>
+                                @foreach (var child in prd.Children.OrderBy(c => c.Id))
+                                {
+                                    <li>
+                                        <!-- Child da Detail’e gitsin -->
+                                        <a asp-controller="Hizmetlerimiz"
+                                           asp-action="Detail"
+                                           asp-route-slug="@child.Slug">
+                                            @child.Name
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        </li>
+
+        <li><a asp-controller="Product" asp-action="Index">Ürünler</a></li>
+        <li><a asp-controller="Contact" asp-action="Index">İletişim</a></li>
+    </ul>
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>

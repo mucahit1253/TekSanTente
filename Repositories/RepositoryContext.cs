@@ -8,6 +8,10 @@ namespace Repositories
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<Media> Media { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<ServiceImage> ServiceImages { get; set; }
 
         public RepositoryContext(DbContextOptions<RepositoryContext> options)
             : base(options)

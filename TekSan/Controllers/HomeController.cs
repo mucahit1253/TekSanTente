@@ -22,12 +22,7 @@ namespace TekSan.Controllers
             return View(model);
         }
 
-        public IActionResult Get(int id)
-        {
-            var model = _manager.Category.GetOneCategory(id, false);
 
-            return View(model);
-        }
         public IActionResult Privacy()
         {
             return View();

@@ -5,5 +5,9 @@
 
         IProductService ProductService { get; }
         ICategoryService CategoryService { get; }
+
+        IOpenCloseMenuService OpenCloseMenuService { get; }
+        IProductImageService ProductImageService { get; }
+
     }
 }

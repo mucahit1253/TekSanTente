@@ -10,7 +10,7 @@ namespace Repositories.Config
         {
             builder.HasKey(p => p.Id);
             builder.HasData(
-                new ServiceImage() { Id = 1, ServiceId = 1, MediaId = 1 }
+                new ServiceImage() { Id = 1, ServiceId = 1, MediaId = 3 }
                 );
         }
     }

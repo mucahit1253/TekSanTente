@@ -26,6 +26,16 @@ namespace Repositories
 
         }
 
+        public IQueryable<Product> GetByProductImgImages(int productId, bool trackChanges)
+        {
+            var query = _context.Set<Product>()
+                    .Where(p => p.Id == productId)
+                    .Include(p => p.Images)
+                       .ThenInclude(pi => pi.Media)
+                    .AsSplitQuery();
+            return query;
+        }
+
         public Product? GetOneProduct(string slug, bool trackChanges)
         {
             return FindByCondition(p => p.Slug.Equals(slug), trackChanges);
@@ -36,5 +46,18 @@ namespace Repositories
             return FindCondition(p => p.CategoryId.Equals(id), trackChanges);
         }
 
+        public IQueryable<Product> GetTwentyProduct(bool trackChanges)
+        {
+            var q = _context.Products
+                     .OrderByDescending(p => p.Id)                 // istediğin sıralama
+                       .Include(p => p.Images
+                         .Where(i => i.IsMain)                     // sadece kapak
+                      .OrderBy(i => i.DisplayOrder)
+                          .Take(1))
+                       .ThenInclude(i => i.Media)                    // kapak dosyası
+                      .AsSplitQuery();
+            return q.Take(20);
+
+        }
     }
 }

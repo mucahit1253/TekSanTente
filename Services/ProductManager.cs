@@ -24,6 +24,12 @@ namespace Services
             return product;
         }
 
+        public IQueryable<Product> GetByProductImgImages(int productId, bool trackChanges)
+        {
+            var query = _manager.Product.GetByProductImgImages(productId, trackChanges);
+            return query;
+        }
+
         public Product? GetOneProduct(string slug, bool trackChanges)
         {
             var product = _manager.Product.GetOneProduct(slug, trackChanges);
@@ -41,6 +47,12 @@ namespace Services
             {
                 throw new Exception("Böyle bir ürün yok yok");
             }
+            return product;
+        }
+
+        public IQueryable<Product> GetTwentyProduct(bool trackChanges)
+        {
+            var product = _manager.Product.GetTwentyProduct(trackChanges);
             return product;
         }
     }

@@ -27,6 +27,7 @@
 
     <!-- Main CSS File -->
     <link href="~/assets/css/main.css" rel="stylesheet">
+   
 
  
 </head>
@@ -40,48 +41,20 @@
                 <h1 class="sitename">TekSan<span>Tente</span></h1>
             </a>
 
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a asp-controller="Home" asp-action="Index" class="active">AnaSayfa</a></li>
-                    <li><a asp-controller="About" asp-action="Index">Hakımızda</a></li>
-                    <li class="dropdown">
-                        <a asp-controller="Contact" asp-action="Index">
-                            <span>Hizmetlerimiz</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
-                        </a>
-                        <ul>
-                            <li><a href="#">Teknik Servis</a></li>
-                            <li class="dropdown">
-                                <a href="#">
-                                    <span>Teknik Özellikler</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
-                                </a>
-                                <ul>
-                                    <li><a href="#">Pergole Tente Özellikler</a></li>
-                                    <li><a href="#">Blackout Pergola Tente Kumaşı</a></li>
-                                    <li><a href="#">Pergola Tente Teknik Özellikleri</a></li>
-                                    <li><a href="#">Pergola Tente İmalatı Çeşitleri</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Kullanım Özellikleri</a></li>
-                            <li><a href="#">Projeler</a></li>
-                            <li><a href="#">Faydalı Bilgiler</a></li>
-                        </ul>
-                    </li>
-                    <li><a asp-controller="Product" asp-action="Index">Ürünler</a></li>
-                    <li><a asp-controller="Contact" asp-action="Index">İletişim</a></li>
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
+            @await Component.InvokeAsync("OpenCloseMenu")
 
         </div>
     </header>
     <div class="container-fluid">
         <main role="main">
             @RenderBody()
+           
         </main>
+        
     </div>
 
     <footer id="footer" class="footer light-background">
-
+       
         <div class="container">
             <div class="row gy-3">
                 <div class="col-lg-3 col-md-6 d-flex">
@@ -178,6 +151,7 @@
     <script src="~/assets/vendor/aos/aos.js"></script>
     <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="~/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Main JS File -->
     <script src="~/assets/js/main.js"></script>

@@ -46,18 +46,24 @@ namespace TekSan.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Service",
+                name: "Services",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Name = table.Column<string>(type: "text", nullable: false),
                     Slug = table.Column<string>(type: "text", nullable: false),
-                    Description = table.Column<string>(type: "text", nullable: false)
+                    Description = table.Column<string>(type: "text", nullable: false),
+                    ParentId = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Service", x => x.Id);
+                    table.PrimaryKey("PK_Services", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Services_Services_ParentId",
+                        column: x => x.ParentId,
+                        principalTable: "Services",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -83,7 +89,7 @@ namespace TekSan.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ServiceImage",
+                name: "ServiceImages",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
@@ -93,23 +99,23 @@ namespace TekSan.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ServiceImage", x => x.Id);
+                    table.PrimaryKey("PK_ServiceImages", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ServiceImage_Media_MediaId",
+                        name: "FK_ServiceImages_Media_MediaId",
                         column: x => x.MediaId,
                         principalTable: "Media",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ServiceImage_Service_ServiceId",
+                        name: "FK_ServiceImages_Services_ServiceId",
                         column: x => x.ServiceId,
-                        principalTable: "Service",
+                        principalTable: "Services",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "ProductImage",
+                name: "ProductImages",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
@@ -121,15 +127,15 @@ namespace TekSan.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ProductImage", x => x.Id);
+                    table.PrimaryKey("PK_ProductImages", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ProductImage_Media_MediaId",
+                        name: "FK_ProductImages_Media_MediaId",
                         column: x => x.MediaId,
                         principalTable: "Media",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ProductImage_Products_ProductId",
+                        name: "FK_ProductImages_Products_ProductId",
                         column: x => x.ProductId,
                         principalTable: "Products",
                         principalColumn: "Id",
@@ -155,13 +161,26 @@ namespace TekSan.Migrations
                 values: new object[,]
                 {
                     { 1, "Tente Ürünü 1", "image/jpeg", "Pergole-Tente.jpg", "/assets/img/properties/Pergole-Tente.jpg" },
-                    { 2, "Tente Ürünü 2", "image/jpeg", "Pergole-Tente-2.jpg", "/assets/img/properties/Pergole-Tente-2.jpg" }
+                    { 2, "Tente Ürünü 2", "image/jpeg", "Pergole-Tente-2.jpg", "/assets/img/properties/Pergole-Tente-2.jpg" },
+                    { 3, "Service ilk resim", "image/jpeg", "service-2.jpg", "/assets/img/service/service-2.jpg" },
+                    { 4, "koruktentekapak", "image/jpeg", "koruktente-1.jpg", "/assents/img/properties/koruktente/koruktente-1.jpg" },
+                    { 5, "koruktente-2", "image/jpeg", "koruktente-2.jpg", "/assents/img/properties/koruktente/koruktente-2.jpg" },
+                    { 6, "koruktente-3", "image/jpeg", "koruktente-3.jpg", "/assents/img/properties/koruktente/koruktente-3.jpg" },
+                    { 7, "koruktente-4", "image/jpeg", "koruktente-4.jpg", "/assents/img/properties/koruktente/koruktente-4.jpg" },
+                    { 8, "koruktente-5", "image/jpeg", "koruktente-5.jpg", "/assents/img/properties/koruktente/koruktente-5.jpg" }
                 });
 
             migrationBuilder.InsertData(
-                table: "Service",
-                columns: new[] { "Id", "Description", "Name", "Slug" },
-                values: new object[] { 1, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Teknik Servis", "teknik-servis" });
+                table: "Services",
+                columns: new[] { "Id", "Description", "Name", "ParentId", "Slug" },
+                values: new object[,]
+                {
+                    { 1, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Teknik Servis", null, "teknik-servis" },
+                    { 2, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Teknik Özellikler", null, "teknik-ozellikler" },
+                    { 6, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Kullanım Özellikleri", null, "kullanim-ozellikleri" },
+                    { 7, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Projeler", null, "projeler" },
+                    { 8, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Faydalı Bilgiler", null, "faydali-bilgiler" }
+                });
 
             migrationBuilder.InsertData(
                 table: "Products",
@@ -176,27 +195,42 @@ namespace TekSan.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "ServiceImage",
+                table: "ServiceImages",
                 columns: new[] { "Id", "MediaId", "ServiceId" },
-                values: new object[] { 1, 1, 1 });
+                values: new object[] { 1, 3, 1 });
 
             migrationBuilder.InsertData(
-                table: "ProductImage",
+                table: "Services",
+                columns: new[] { "Id", "Description", "Name", "ParentId", "Slug" },
+                values: new object[,]
+                {
+                    { 3, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Blackout Pergola Tente Kumaşı", 2, "blackout-pergola-tente-kumasi" },
+                    { 4, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Pergola Tente Teknik Özellikleri", 2, "pergola-tente-teknik-ozellikleri" },
+                    { 5, "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.", "Pergola Tente İmalatı Çeşitleri", 2, "pergola-tente-imalati-cesitleri" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "ProductImages",
                 columns: new[] { "Id", "DisplayOrder", "IsMain", "MediaId", "ProductId" },
                 values: new object[,]
                 {
                     { 1, 1, true, 1, 1 },
-                    { 2, 2, false, 2, 1 }
+                    { 2, 2, false, 2, 1 },
+                    { 3, 3, true, 4, 2 },
+                    { 4, 3, false, 5, 2 },
+                    { 5, 3, false, 6, 2 },
+                    { 6, 3, false, 7, 2 },
+                    { 7, 3, false, 8, 2 }
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_ProductImage_MediaId",
-                table: "ProductImage",
+                name: "IX_ProductImages_MediaId",
+                table: "ProductImages",
                 column: "MediaId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ProductImage_ProductId",
-                table: "ProductImage",
+                name: "IX_ProductImages_ProductId",
+                table: "ProductImages",
                 column: "ProductId");
 
             migrationBuilder.CreateIndex(
@@ -205,24 +239,29 @@ namespace TekSan.Migrations
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ServiceImage_MediaId",
-                table: "ServiceImage",
+                name: "IX_ServiceImages_MediaId",
+                table: "ServiceImages",
                 column: "MediaId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ServiceImage_ServiceId",
-                table: "ServiceImage",
+                name: "IX_ServiceImages_ServiceId",
+                table: "ServiceImages",
                 column: "ServiceId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Services_ParentId",
+                table: "Services",
+                column: "ParentId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "ProductImage");
+                name: "ProductImages");
 
             migrationBuilder.DropTable(
-                name: "ServiceImage");
+                name: "ServiceImages");
 
             migrationBuilder.DropTable(
                 name: "Products");
@@ -231,7 +270,7 @@ namespace TekSan.Migrations
                 name: "Media");
 
             migrationBuilder.DropTable(
-                name: "Service");
+                name: "Services");
 
             migrationBuilder.DropTable(
                 name: "Categories");

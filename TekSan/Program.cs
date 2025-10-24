@@ -76,11 +76,17 @@ namespace TekSan
             builder.Services.AddScoped<IRepositoryManager, RepositoryManger>();
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IOpenCloseMenuRepository, OpenCloseMenuRepository>();
+            builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
+
 
             //Service Kayýt
             builder.Services.AddScoped<IServiceManager, ServiceManager>();
             builder.Services.AddScoped<IProductService, ProductManager>();
             builder.Services.AddScoped<ICategoryService, CategoryManager>();
+            builder.Services.AddScoped<IOpenCloseMenuService, OpenCloseMenuManager>();
+            builder.Services.AddScoped<IProductImageService, ProductImageManager>();
+
 
 
 

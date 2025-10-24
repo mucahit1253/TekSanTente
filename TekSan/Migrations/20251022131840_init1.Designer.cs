@@ -12,8 +12,8 @@ using Repositories;
 namespace TekSan.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20251016191349_init")]
-    partial class init
+    [Migration("20251022131840_init1")]
+    partial class init1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -147,6 +147,54 @@ namespace TekSan.Migrations
                             ContentType = "image/jpeg",
                             FileName = "Pergole-Tente-2.jpg",
                             Url = "/assets/img/properties/Pergole-Tente-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AltText = "Service ilk resim",
+                            ContentType = "image/jpeg",
+                            FileName = "service-2.jpg",
+                            Url = "/assets/img/service/service-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AltText = "koruktentekapak",
+                            ContentType = "image/jpeg",
+                            FileName = "koruktente-1.jpg",
+                            Url = "/assents/img/properties/koruktente-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            AltText = "koruktente-2",
+                            ContentType = "image/jpeg",
+                            FileName = "koruktente-2.jpg",
+                            Url = "/assents/img/properties/koruktente-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            AltText = "koruktente-3",
+                            ContentType = "image/jpeg",
+                            FileName = "koruktente-3.jpg",
+                            Url = "/assents/img/properties/koruktente-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AltText = "koruktente-4",
+                            ContentType = "image/jpeg",
+                            FileName = "koruktente-4.jpg",
+                            Url = "/assents/img/properties/koruktente-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            AltText = "koruktente-5",
+                            ContentType = "image/jpeg",
+                            FileName = "koruktente-5.jpg",
+                            Url = "/assents/img/properties/koruktente-5.jpg"
                         });
                 });
 
@@ -255,7 +303,7 @@ namespace TekSan.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImage");
+                    b.ToTable("ProductImages");
 
                     b.HasData(
                         new
@@ -273,6 +321,46 @@ namespace TekSan.Migrations
                             IsMain = false,
                             MediaId = 2,
                             ProductId = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 4,
+                            ProductId = 2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 5,
+                            ProductId = 2
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 6,
+                            ProductId = 2
+                        },
+                        new
+                        {
+                            Id = 6,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 7,
+                            ProductId = 2
+                        },
+                        new
+                        {
+                            Id = 7,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 8,
+                            ProductId = 2
                         });
                 });
 
@@ -292,13 +380,18 @@ namespace TekSan.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int?>("ParentId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Slug")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Service");
+                    b.HasIndex("ParentId");
+
+                    b.ToTable("Services");
 
                     b.HasData(
                         new
@@ -307,6 +400,58 @@ namespace TekSan.Migrations
                             Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
                             Name = "Teknik Servis",
                             Slug = "teknik-servis"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Name = "Teknik Özellikler",
+                            Slug = "teknik-ozellikler"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Name = "Blackout Pergola Tente Kumaşı",
+                            ParentId = 2,
+                            Slug = "blackout-pergola-tente-kumasi"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Name = "Pergola Tente Teknik Özellikleri",
+                            ParentId = 2,
+                            Slug = "pergola-tente-teknik-ozellikleri"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Name = "Pergola Tente İmalatı Çeşitleri",
+                            ParentId = 2,
+                            Slug = "pergola-tente-imalati-cesitleri"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Name = "Kullanım Özellikleri",
+                            Slug = "kullanim-ozellikleri"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Name = "Projeler",
+                            Slug = "projeler"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Name = "Faydalı Bilgiler",
+                            Slug = "faydali-bilgiler"
                         });
                 });
 
@@ -330,13 +475,13 @@ namespace TekSan.Migrations
 
                     b.HasIndex("ServiceId");
 
-                    b.ToTable("ServiceImage");
+                    b.ToTable("ServiceImages");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            MediaId = 1,
+                            MediaId = 3,
                             ServiceId = 1
                         });
                 });
@@ -367,6 +512,15 @@ namespace TekSan.Migrations
                     b.Navigation("Media");
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Entities.Models.Service", b =>
+                {
+                    b.HasOne("Entities.Models.Service", "Parent")
+                        .WithMany("Children")
+                        .HasForeignKey("ParentId");
+
+                    b.Navigation("Parent");
                 });
 
             modelBuilder.Entity("Entities.Models.ServiceImage", b =>
@@ -400,6 +554,8 @@ namespace TekSan.Migrations
 
             modelBuilder.Entity("Entities.Models.Service", b =>
                 {
+                    b.Navigation("Children");
+
                     b.Navigation("Images");
                 });
 #pragma warning restore 612, 618

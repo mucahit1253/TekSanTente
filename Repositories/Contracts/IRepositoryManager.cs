@@ -4,6 +4,8 @@
     {
         IProductRepository Product { get; }
         ICategoryRepository Category { get; }
+        IOpenCloseMenuRepository OpenCloseMenu { get; }
+        IProductImageRepository ProductImage { get; }
 
 
         void Save();

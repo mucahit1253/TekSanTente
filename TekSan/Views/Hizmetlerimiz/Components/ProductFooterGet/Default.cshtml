@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Product>
+
+<div class="row gy-4">
+    @foreach (var prd in Model)
+    {
+        var cover = prd.Images?
+        .OrderBy(i => i.DisplayOrder)
+        .Select(i => i.Media?.Url)
+        .FirstOrDefault();
+
+        var src = Url.Content(cover ?? "~/assets/img/placeholder.png");
+
+        <div class="col-xl-4 col-md-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+                <img src="@src" alt="@prd.Name" class="img-fluid" loading="lazy" />
+                <div class="card-body">
+                    <span class="sale-rent">Satın Al</span>
+                    <h3>
+                        <a asp-controller="Product" asp-action="Get" asp-route-slug="@prd.Slug" class="stretched-link">
+                            @prd.Name
+                        </a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    }
+</div>

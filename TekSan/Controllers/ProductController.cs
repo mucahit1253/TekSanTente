@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
+using TekSan.Models;
 
 
 namespace TekSan.Controllers
@@ -22,8 +23,16 @@ namespace TekSan.Controllers
         [HttpGet("Product/{slug}")]
         public IActionResult Get(string slug)
         {
-            var model = _manager.ProductService.GetOneProduct(slug, false);
-            return View(model);
+            var product = _manager.ProductService.GetOneProduct(slug, false);
+            if (product is null) return NotFound();
+            var imagesQ = _manager.ProductImageService.GetByProductImgImages(product.Id, trackChanges: false);
+            var vm = new ProductDetailVm
+            {
+                Product = product,
+                ImagesQ = imagesQ,          // gerekiyorsa tut
+                Images = imagesQ.ToList()   // Razor’da foreach için güvenli
+            };
+            return View(vm);
         }
     }
 }
