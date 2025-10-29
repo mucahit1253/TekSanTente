@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Repositories;
@@ -11,9 +12,11 @@ using Repositories;
 namespace TekSan.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    partial class RepositoryContextModelSnapshot : ModelSnapshot
+    [Migration("20251029192833_init14")]
+    partial class init14
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -544,142 +547,6 @@ namespace TekSan.Migrations
                             ContentType = "image/jpeg",
                             FileName = "iskele-branda-4.jpg",
                             Url = "/assets/img/properties/iskele-branda-4.jpg"
-                        },
-                        new
-                        {
-                            Id = 53,
-                            AltText = "kamleya-brandasi-1.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "kamleya-brandasi-1.jpg",
-                            Url = "/assets/img/properties/kamleya-brandasi-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 54,
-                            AltText = "kamleya-brandasi-2.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "kamleya-brandasi-2.jpg",
-                            Url = "/assets/img/properties/kamleya-brandasi-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 55,
-                            AltText = "kamleya-brandasi-3.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "kamleya-brandasi-3.jpg",
-                            Url = "/assets/img/properties/kamleya-brandasi-3.jpg"
-                        },
-                        new
-                        {
-                            Id = 56,
-                            AltText = "kamleya-brandasi-4.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "kamleya-brandasi-4.jpg",
-                            Url = "/assets/img/properties/kamleya-brandasi-4.jpg"
-                        },
-                        new
-                        {
-                            Id = 57,
-                            AltText = "pazar-cadir-1.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "pazar-cadir-1.jpg",
-                            Url = "/assets/img/properties/pazar-cadir-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 58,
-                            AltText = "pazar-cadir-2.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "pazar-cadir-2.jpg",
-                            Url = "/assets/img/properties/pazar-cadir-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 59,
-                            AltText = "pazar-cadir-3.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "pazar-cadir-3.jpg",
-                            Url = "/assets/img/properties/pazar-cadir-3.jpg"
-                        },
-                        new
-                        {
-                            Id = 60,
-                            AltText = "reklam-afisi-1.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "reklam-afisi-1.jpg",
-                            Url = "/assets/img/properties/reklam-afisi-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 61,
-                            AltText = "reklam-afisi-2.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "reklam-afisi-2.jpg",
-                            Url = "/assets/img/properties/reklam-afisi-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 62,
-                            AltText = "reklam-afisi-3.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "reklam-afisi-3.jpg",
-                            Url = "/assets/img/properties/reklam-afisi-3.jpg"
-                        },
-                        new
-                        {
-                            Id = 63,
-                            AltText = "reklam-afisi-4.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "reklam-afisi-4.jpg",
-                            Url = "/assets/img/properties/reklam-afisi-4.jpg"
-                        },
-                        new
-                        {
-                            Id = 64,
-                            AltText = "arac-korumalari-1.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "arac-korumalari-1.jpg",
-                            Url = "/assets/img/properties/arac-korumalari-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 65,
-                            AltText = "arac-korumalari-2.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "arac-korumalari-2.jpg",
-                            Url = "/assets/img/properties/arac-korumalari-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 66,
-                            AltText = "arac-korumalari-3.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "arac-korumalari-3.jpg",
-                            Url = "/assets/img/properties/arac-korumalari-3.jpg"
-                        },
-                        new
-                        {
-                            Id = 67,
-                            AltText = "yat-brandasi-1.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "yat-brandasi-1.jpg",
-                            Url = "/assets/img/properties/yat-brandasi-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 68,
-                            AltText = "yat-brandasi-2.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "yat-brandasi-2.jpg",
-                            Url = "/assets/img/properties/yat-brandasi-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 69,
-                            AltText = "yat-brandasi-3.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "yat-brandasi-3.jpg",
-                            Url = "/assets/img/properties/yat-brandasi-3.jpg"
                         });
                 });
 
@@ -1405,142 +1272,6 @@ namespace TekSan.Migrations
                             IsMain = false,
                             MediaId = 52,
                             ProductId = 12
-                        },
-                        new
-                        {
-                            Id = 52,
-                            DisplayOrder = 3,
-                            IsMain = true,
-                            MediaId = 53,
-                            ProductId = 13
-                        },
-                        new
-                        {
-                            Id = 53,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 54,
-                            ProductId = 13
-                        },
-                        new
-                        {
-                            Id = 54,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 55,
-                            ProductId = 13
-                        },
-                        new
-                        {
-                            Id = 55,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 56,
-                            ProductId = 13
-                        },
-                        new
-                        {
-                            Id = 56,
-                            DisplayOrder = 3,
-                            IsMain = true,
-                            MediaId = 57,
-                            ProductId = 14
-                        },
-                        new
-                        {
-                            Id = 57,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 58,
-                            ProductId = 14
-                        },
-                        new
-                        {
-                            Id = 58,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 59,
-                            ProductId = 14
-                        },
-                        new
-                        {
-                            Id = 59,
-                            DisplayOrder = 3,
-                            IsMain = true,
-                            MediaId = 60,
-                            ProductId = 15
-                        },
-                        new
-                        {
-                            Id = 60,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 61,
-                            ProductId = 15
-                        },
-                        new
-                        {
-                            Id = 61,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 62,
-                            ProductId = 15
-                        },
-                        new
-                        {
-                            Id = 62,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 63,
-                            ProductId = 15
-                        },
-                        new
-                        {
-                            Id = 63,
-                            DisplayOrder = 3,
-                            IsMain = true,
-                            MediaId = 64,
-                            ProductId = 16
-                        },
-                        new
-                        {
-                            Id = 64,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 65,
-                            ProductId = 16
-                        },
-                        new
-                        {
-                            Id = 65,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 66,
-                            ProductId = 16
-                        },
-                        new
-                        {
-                            Id = 66,
-                            DisplayOrder = 3,
-                            IsMain = true,
-                            MediaId = 67,
-                            ProductId = 16
-                        },
-                        new
-                        {
-                            Id = 67,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 68,
-                            ProductId = 16
-                        },
-                        new
-                        {
-                            Id = 68,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 69,
-                            ProductId = 16
                         });
                 });
 
