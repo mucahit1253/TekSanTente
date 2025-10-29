@@ -9,6 +9,7 @@ namespace Repositories.Contracts
         Service? FindBySlug(string slug, bool trackChanges);
         IQueryable<Service> GetAllService(bool trackChanges);
         public string? GetServiceFirstImageUrl(int serviceId);
+        Service? FindById(int serviceId, bool trackChanges);
 
     }
 }

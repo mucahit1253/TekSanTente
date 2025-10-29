@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Repositories;
@@ -11,9 +12,11 @@ using Repositories;
 namespace TekSan.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    partial class RepositoryContextModelSnapshot : ModelSnapshot
+    [Migration("20251028080918_init7")]
+    partial class init7
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -224,38 +227,6 @@ namespace TekSan.Migrations
                             ContentType = "image/jpeg",
                             FileName = "Pergole-5.jpg",
                             Url = "/assets/img/properties/Pergole-Tente-5.jpg"
-                        },
-                        new
-                        {
-                            Id = 13,
-                            AltText = "stor-tente-1.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "stor-tente-1.jpg",
-                            Url = "/assets/img/properties/stor-tente-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 14,
-                            AltText = "stor-tente-2.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "stor-tente-2.jpg",
-                            Url = "/assets/img/properties/stor-tente-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 15,
-                            AltText = "stor-tente-3.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "stor-tente-3.jpg",
-                            Url = "/assets/img/properties/stor-tente-3.jpg"
-                        },
-                        new
-                        {
-                            Id = 16,
-                            AltText = "stor-tente-4.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "stor-tente-4.jpg",
-                            Url = "/assets/img/properties/stor-tente-4.jpg"
                         });
                 });
 
@@ -661,38 +632,6 @@ namespace TekSan.Migrations
                             IsMain = false,
                             MediaId = 12,
                             ProductId = 1
-                        },
-                        new
-                        {
-                            Id = 12,
-                            DisplayOrder = 3,
-                            IsMain = true,
-                            MediaId = 13,
-                            ProductId = 3
-                        },
-                        new
-                        {
-                            Id = 13,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 14,
-                            ProductId = 3
-                        },
-                        new
-                        {
-                            Id = 14,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 15,
-                            ProductId = 3
-                        },
-                        new
-                        {
-                            Id = 15,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 16,
-                            ProductId = 3
                         });
                 });
 

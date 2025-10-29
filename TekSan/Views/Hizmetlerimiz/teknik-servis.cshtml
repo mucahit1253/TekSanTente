@@ -1,5 +1,4 @@
-﻿@model IEnumerable<Service>
-
+﻿@model Service
 
 <main class="main">
     <!-- Page Title -->
@@ -26,12 +25,18 @@
     <section id="service-details" class="service-details section">
         <div class="container">
             <div class="row gy-5">
-
+                
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                   @await Component.InvokeAsync("NavbarMenu")
 
                 </div>
+                <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+                    <p>@Model.Description</p>
+                </div>
              </div>
+            
+          
             <!-- 🔽 Alt kısım: Resimler tam genişlikte -->
             @await Component.InvokeAsync("ProductFooterGet")
 

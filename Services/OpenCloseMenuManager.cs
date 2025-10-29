@@ -13,6 +13,8 @@ namespace Services
             _manager = manager;
         }
 
+        public Service? FindById(int serviceId, bool trackChanges) => _manager.OpenCloseMenu.FindById(serviceId, trackChanges);
+
         public Service? FindBySlug(string slug, bool trackChanges) => _manager.OpenCloseMenu.FindBySlug(slug, trackChanges);
 
         public IEnumerable<Service> GetAllService(bool trackChanges)

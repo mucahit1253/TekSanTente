@@ -49,7 +49,7 @@ namespace Repositories
         public IQueryable<Product> GetTwentyProduct(bool trackChanges)
         {
             var q = _context.Products
-                     .OrderByDescending(p => p.Id)                 // istediğin sıralama
+                       //.OrderByDescending(p => p.Id)                 // istediğin sıralama
                        .Include(p => p.Images
                          .Where(i => i.IsMain)                     // sadece kapak
                       .OrderBy(i => i.DisplayOrder)

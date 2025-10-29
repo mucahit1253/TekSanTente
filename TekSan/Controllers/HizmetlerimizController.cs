@@ -42,11 +42,11 @@ namespace TekSan.Controllers
 
             return View("Detail", svc); // fallback
         }
-        [HttpGet("teknik-servis")]
-        public IActionResult TeknikServis()
+        [HttpGet("teknik-servis/{id}")]
+        public IActionResult TeknikServis(int id)
         {
-
-            return View("teknik-servis"); // -> Views/Hizmetlerimiz/teknik-servis.cshtml
+            var query = _manager.OpenCloseMenuService.FindById(id, false);
+            return View("teknik-servis", query); // -> Views/Hizmetlerimiz/teknik-servis.cshtml
 
         }
         [HttpGet("teknik-ozellikler")]

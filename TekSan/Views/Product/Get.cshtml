@@ -43,7 +43,7 @@
                         // img.Media.Url veya img.ImageUrl gibi gerçek yol alanını kullan
                         var src = img.Media?.Url ??  "assets/img/placeholder.png";
                         <div class="swiper-slide">
-                            <img src="@src" alt="@Model.Product.Name" />
+                            <img  src="@src" alt="@Model.Product.Name" />
                         </div>
                     }
                 </div>
@@ -92,5 +92,6 @@
             </div>
 
         </div>
+        @await Component.InvokeAsync("ProductFooterGet")
     </section>
 </main>

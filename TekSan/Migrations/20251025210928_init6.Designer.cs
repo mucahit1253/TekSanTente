@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Repositories;
@@ -11,9 +12,11 @@ using Repositories;
 namespace TekSan.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    partial class RepositoryContextModelSnapshot : ModelSnapshot
+    [Migration("20251025210928_init6")]
+    partial class init6
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -224,38 +227,6 @@ namespace TekSan.Migrations
                             ContentType = "image/jpeg",
                             FileName = "Pergole-5.jpg",
                             Url = "/assets/img/properties/Pergole-Tente-5.jpg"
-                        },
-                        new
-                        {
-                            Id = 13,
-                            AltText = "stor-tente-1.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "stor-tente-1.jpg",
-                            Url = "/assets/img/properties/stor-tente-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 14,
-                            AltText = "stor-tente-2.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "stor-tente-2.jpg",
-                            Url = "/assets/img/properties/stor-tente-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 15,
-                            AltText = "stor-tente-3.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "stor-tente-3.jpg",
-                            Url = "/assets/img/properties/stor-tente-3.jpg"
-                        },
-                        new
-                        {
-                            Id = 16,
-                            AltText = "stor-tente-4.jpg",
-                            ContentType = "image/jpeg",
-                            FileName = "stor-tente-4.jpg",
-                            Url = "/assets/img/properties/stor-tente-4.jpg"
                         });
                 });
 
@@ -335,213 +306,6 @@ namespace TekSan.Migrations
                             Name = "Mafsallı Tente",
                             Price = 30000m,
                             Slug = "mafsalli-tente"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            CategoryId = 1,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Giyotin Cam",
-                            Price = 30000m,
-                            Slug = "giyotin-cam"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CategoryId = 1,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Fotoselli Giyotin Cam Kapı",
-                            Price = 30000m,
-                            Slug = "fotoselli-giyotin-cam-kapi"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Şeffaf Kış Bahçesi",
-                            Price = 30000m,
-                            Slug = "seffaf-kıs-bahcesi"
-                        },
-                        new
-                        {
-                            Id = 9,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Şeffaf Alan Kapama",
-                            Price = 30000m,
-                            Slug = "seffaf-alan-kapama"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Şeffaf Pvc Mika Branda",
-                            Price = 30000m,
-                            Slug = "seffaf-pvc-mika-branda"
-                        },
-                        new
-                        {
-                            Id = 11,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Havuz Brandası",
-                            Price = 30000m,
-                            Slug = "havuz-brandasi"
-                        },
-                        new
-                        {
-                            Id = 12,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "İskele Brandası",
-                            Price = 30000m,
-                            Slug = "iskele-brandasi"
-                        },
-                        new
-                        {
-                            Id = 13,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Kamelya Branda",
-                            Price = 30000m,
-                            Slug = "kamelya-branda"
-                        },
-                        new
-                        {
-                            Id = 14,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Pazar Brandası",
-                            Price = 30000m,
-                            Slug = "pazar-brandasi"
-                        },
-                        new
-                        {
-                            Id = 15,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Reklam Brandası",
-                            Price = 30000m,
-                            Slug = "reklam-brandasi"
-                        },
-                        new
-                        {
-                            Id = 16,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Araç Koruma Brandası",
-                            Price = 30000m,
-                            Slug = "arac-koruma-brandasi"
-                        },
-                        new
-                        {
-                            Id = 17,
-                            CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Yat ve Tekne Brandası",
-                            Price = 30000m,
-                            Slug = "yat-tekne-brandasi"
-                        },
-                        new
-                        {
-                            Id = 18,
-                            CategoryId = 4,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Cam Balkon",
-                            Price = 30000m,
-                            Slug = "cam-balkon"
-                        },
-                        new
-                        {
-                            Id = 19,
-                            CategoryId = 4,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Cam Veranda",
-                            Price = 30000m,
-                            Slug = "cam-veranda"
-                        },
-                        new
-                        {
-                            Id = 20,
-                            CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Depo Çadırı",
-                            Price = 30000m,
-                            Slug = "depo-cadiri"
-                        },
-                        new
-                        {
-                            Id = 21,
-                            CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Doğal Afet Çadırı",
-                            Price = 30000m,
-                            Slug = "dogal-afet-cadiri"
-                        },
-                        new
-                        {
-                            Id = 22,
-                            CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Halı Saha Çadırı",
-                            Price = 30000m,
-                            Slug = "hali -saha-cadiri"
-                        },
-                        new
-                        {
-                            Id = 23,
-                            CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Hayvan Besi Çadırı",
-                            Price = 30000m,
-                            Slug = "hayvan-besi-cadiri"
-                        },
-                        new
-                        {
-                            Id = 24,
-                            CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Spor Kompleksi Çadırı",
-                            Price = 30000m,
-                            Slug = "spor-kompleksi-cadiri"
-                        },
-                        new
-                        {
-                            Id = 25,
-                            CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Şantiye Çadırı",
-                            Price = 30000m,
-                            Slug = "santiye-cadiri"
-                        },
-                        new
-                        {
-                            Id = 26,
-                            CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Kiralık Çadır",
-                            Price = 30000m,
-                            Slug = "kiralik-cadir"
-                        },
-                        new
-                        {
-                            Id = 27,
-                            CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Konser Tören Çadırı",
-                            Price = 30000m,
-                            Slug = "konser-toren-cadiri"
-                        },
-                        new
-                        {
-                            Id = 28,
-                            CategoryId = 6,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
-                            Name = "Sürgülü Sineklik",
-                            Price = 30000m,
-                            Slug = "surgulu-sineklik"
                         });
                 });
 
@@ -661,38 +425,6 @@ namespace TekSan.Migrations
                             IsMain = false,
                             MediaId = 12,
                             ProductId = 1
-                        },
-                        new
-                        {
-                            Id = 12,
-                            DisplayOrder = 3,
-                            IsMain = true,
-                            MediaId = 13,
-                            ProductId = 3
-                        },
-                        new
-                        {
-                            Id = 13,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 14,
-                            ProductId = 3
-                        },
-                        new
-                        {
-                            Id = 14,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 15,
-                            ProductId = 3
-                        },
-                        new
-                        {
-                            Id = 15,
-                            DisplayOrder = 3,
-                            IsMain = false,
-                            MediaId = 16,
-                            ProductId = 3
                         });
                 });
 

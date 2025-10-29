@@ -16,7 +16,20 @@ namespace Repositories.Config
                  new ProductImage() { Id = 4, ProductId = 2, MediaId = 5, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 5, ProductId = 2, MediaId = 6, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 6, ProductId = 2, MediaId = 7, IsMain = false, DisplayOrder = 3 },
-                 new ProductImage() { Id = 7, ProductId = 2, MediaId = 8, IsMain = false, DisplayOrder = 3 }
+                 new ProductImage() { Id = 7, ProductId = 2, MediaId = 8, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 8, ProductId = 1, MediaId = 9, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 9, ProductId = 1, MediaId = 10, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 10, ProductId = 1, MediaId = 11, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 11, ProductId = 1, MediaId = 12, IsMain = false, DisplayOrder = 3 },
+                 //stortente
+                 new ProductImage() { Id = 12, ProductId = 3, MediaId = 13, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 13, ProductId = 3, MediaId = 14, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 14, ProductId = 3, MediaId = 15, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 15, ProductId = 3, MediaId = 16, IsMain = false, DisplayOrder = 3 }
+
+
+
+
 
 
 

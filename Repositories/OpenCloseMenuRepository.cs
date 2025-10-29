@@ -10,6 +10,8 @@ namespace Repositories
         {
         }
 
+        public Service? FindById(int serviceId, bool trackChanges) => _context.Services.FirstOrDefault(s => s.Id.Equals(serviceId));
+
         public Service? FindBySlug(string slug, bool trackChanges) => _context.Services.FirstOrDefault(s => s.Slug.Equals(slug));
 
         public IQueryable<Service> GetAllService(bool trackChanges)
