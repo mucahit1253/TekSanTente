@@ -97,7 +97,57 @@ namespace Repositories.Config
                 //Yat ve Tekne Brandası
                 new Media() { Id = 67, FileName = "yat-brandasi-1.jpg", Url = "/assets/img/properties/yat-brandasi-1.jpg", AltText = "yat-brandasi-1.jpg", ContentType = "image/jpeg" },
                 new Media() { Id = 68, FileName = "yat-brandasi-2.jpg", Url = "/assets/img/properties/yat-brandasi-2.jpg", AltText = "yat-brandasi-2.jpg", ContentType = "image/jpeg" },
-                new Media() { Id = 69, FileName = "yat-brandasi-3.jpg", Url = "/assets/img/properties/yat-brandasi-3.jpg", AltText = "yat-brandasi-3.jpg", ContentType = "image/jpeg" }
+                new Media() { Id = 69, FileName = "yat-brandasi-3.jpg", Url = "/assets/img/properties/yat-brandasi-3.jpg", AltText = "yat-brandasi-3.jpg", ContentType = "image/jpeg" },
+                //Cam Balkon
+                new Media() { Id = 70, FileName = "cam-balkon-1.jpg", Url = "/assets/img/properties/cam-balkon-1.jpg", AltText = "cam-balkon-1.jpg", ContentType = "image/jpeg" },
+                new Media() { Id = 71, FileName = "cam-balkon-2.jpg", Url = "/assets/img/properties/cam-balkon-2.jpg", AltText = "cam-balkon-2.jpg", ContentType = "image/jpeg" },
+                new Media() { Id = 72, FileName = "cam-balkon-3.jpg", Url = "/assets/img/properties/cam-balkon-3.jpg", AltText = "cam-balkon-3.jpg", ContentType = "image/jpeg" },
+                new Media() { Id = 73, FileName = "cam-balkon-4.jpg", Url = "/assets/img/properties/cam-balkon-4.jpg", AltText = "cam-balkon-4.jpg", ContentType = "image/jpeg" },
+                new Media() { Id = 74, FileName = "cam-balkon-5.jpg", Url = "/assets/img/properties/cam-balkon-5.jpg", AltText = "cam-balkon-5.jpg", ContentType = "image/jpeg" },
+                new Media() { Id = 75, FileName = "cam-balkon-6.jpg", Url = "/assets/img/properties/cam-balkon-6.jpg", AltText = "cam-balkon-6.jpg", ContentType = "image/jpeg" },
+                //cam-veranda
+                new Media() { Id = 76, FileName = "cam-veranda-1.jpg", Url = "/assets/img/properties/cam-veranda-1.jpg", AltText = "cam-veranda-1", ContentType = "image/jpeg" },
+                new Media() { Id = 77, FileName = "cam-veranda-2.jpg", Url = "/assets/img/properties/cam-veranda-2.jpg", AltText = "cam-veranda-2", ContentType = "image/jpeg" },
+                new Media() { Id = 78, FileName = "cam-veranda-3.jpg", Url = "/assets/img/properties/cam-veranda-3.jpg", AltText = "cam-veranda-3", ContentType = "image/jpeg" },
+                new Media() { Id = 79, FileName = "cam-veranda-4.jpg", Url = "/assets/img/properties/cam-veranda-4.jpg", AltText = "cam-veranda-4", ContentType = "image/jpeg" },
+                //depo-cadiri
+                new Media() { Id = 80, FileName = "depo-cadiri-1.jpg", Url = "/assets/img/properties/depo-cadiri-1.jpg", AltText = "depo-cadiri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 81, FileName = "depo-cadiri-2.jpg", Url = "/assets/img/properties/depo-cadiri-2.jpg", AltText = "depo-cadiri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 82, FileName = "depo-cadiri-3.jpg", Url = "/assets/img/properties/depo-cadiri-3.jpg", AltText = "depo-cadiri-3", ContentType = "image/jpeg" },
+                new Media() { Id = 83, FileName = "depo-cadiri-4.jpg", Url = "/assets/img/properties/depo-cadiri-4.jpg", AltText = "depo-cadiri-4", ContentType = "image/jpeg" },
+                //dogal-afet-cadiri
+                new Media() { Id = 84, FileName = "dogal-afet-cadiri-1.jpg", Url = "/assets/img/properties/dogal-afet-cadiri-1.jpg", AltText = "dogal-afet-cadiri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 85, FileName = "dogal-afet-cadiri-2.jpg", Url = "/assets/img/properties/dogal-afet-cadiri-2.jpg", AltText = "dogal-afet-cadiri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 86, FileName = "dogal-afet-cadiri-3.jpg", Url = "/assets/img/properties/dogal-afet-cadiri-3.jpg", AltText = "dogal-afet-cadiri-3", ContentType = "image/jpeg" },
+                //hali -saha-cadiri
+                new Media() { Id = 87, FileName = "hali -saha-cadiri-1.jpg", Url = "/assets/img/properties/hali -saha-cadiri-1.jpg", AltText = "hali -saha-cadiri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 88, FileName = "hali -saha-cadiri-2.jpg", Url = "/assets/img/properties/hali -saha-cadiri-2.jpg", AltText = "hali -saha-cadiri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 89, FileName = "hali -saha-cadiri-3.jpg", Url = "/assets/img/properties/hali -saha-cadiri-3.jpg", AltText = "hali -saha-cadiri-3", ContentType = "image/jpeg" },
+                //hayvan-besi-cadiri
+                new Media() { Id = 90, FileName = "hayvan-besi-cadiri-1.jpg", Url = "/assets/img/properties/hayvan-besi-cadiri-1.jpg", AltText = "hayvan-besi-cadiri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 91, FileName = "hayvan-besi-cadiri-2.jpg", Url = "/assets/img/properties/hayvan-besi-cadiri-2.jpg", AltText = "hayvan-besi-cadiri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 92, FileName = "hayvan-besi-cadiri-3.jpg", Url = "/assets/img/properties/hayvan-besi-cadiri-3.jpg", AltText = "hayvan-besi-cadiri-3", ContentType = "image/jpeg" },
+                //spor-kompleksi-cadiri
+                new Media() { Id = 93, FileName = "spor-kompleksi-cadiri-1.jpg", Url = "/assets/img/properties/spor-kompleksi-cadiri-1.jpg", AltText = "spor-kompleksi-cadiri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 94, FileName = "spor-kompleksi-cadiri-2.jpg", Url = "/assets/img/properties/spor-kompleksi-cadiri-2.jpg", AltText = "spor-kompleksi-cadiri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 95, FileName = "spor-kompleksi-cadiri-3.jpg", Url = "/assets/img/properties/spor-kompleksi-cadiri-3.jpg", AltText = "spor-kompleksi-cadiri-3", ContentType = "image/jpeg" },
+                //santiye-cadiri
+                new Media() { Id = 96, FileName = "santiye-cadiri-1.jpg", Url = "/assets/img/properties/santiye-cadiri-1.jpg", AltText = "santiye-cadiri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 97, FileName = "santiye-cadiri-2.jpg", Url = "/assets/img/properties/santiye-cadiri-2.jpg", AltText = "santiye-cadiri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 98, FileName = "santiye-cadiri-3.jpg", Url = "/assets/img/properties/santiye-cadiri-3.jpg", AltText = "santiye-cadiri-3", ContentType = "image/jpeg" },
+                //kiralik-cadir
+                new Media() { Id = 99, FileName = "kiralik-cadir-1.jpg", Url = "/assets/img/properties/kiralik-cadir-1.jpg", AltText = "kiralik-cadir-1", ContentType = "image/jpeg" },
+                new Media() { Id = 100, FileName = "kiralik-cadir-2.jpg", Url = "/assets/img/properties/kiralik-cadir-2.jpg", AltText = "kiralik-cadir-2", ContentType = "image/jpeg" },
+                new Media() { Id = 101, FileName = "kiralik-cadir-3.jpg", Url = "/assets/img/properties/kiralik-cadir-3.jpg", AltText = "kiralik-cadir-3", ContentType = "image/jpeg" },
+                //konser-toren-cadiri
+                new Media() { Id = 102, FileName = "konser-toren-cadiri-1.jpg", Url = "/assets/img/properties/konser-toren-cadiri-1.jpg", AltText = "konser-toren-cadiri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 103, FileName = "konser-toren-cadiri-2.jpg", Url = "/assets/img/properties/konser-toren-cadiri-2.jpg", AltText = "konser-toren-cadiri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 104, FileName = "konser-toren-cadiri-3.jpg", Url = "/assets/img/properties/konser-toren-cadiri-3.jpg", AltText = "konser-toren-cadiri-3", ContentType = "image/jpeg" },
+                //surgulu-sineklik
+                new Media() { Id = 105, FileName = "surgulu-sineklik-1.jpg", Url = "/assets/img/properties/surgulu-sineklik-1.jpg", AltText = "surgulu-sineklik-1", ContentType = "image/jpeg" },
+                new Media() { Id = 106, FileName = "surgulu-sineklik-2.jpg", Url = "/assets/img/properties/surgulu-sineklik-2.jpg", AltText = "surgulu-sineklik-2", ContentType = "image/jpeg" },
+                new Media() { Id = 107, FileName = "surgulu-sineklik-3.jpg", Url = "/assets/img/properties/surgulu-sineklik-3.jpg", AltText = "surgulu-sineklik-3", ContentType = "image/jpeg" },
+                new Media() { Id = 108, FileName = "surgulu-sineklik-4.jpg", Url = "/assets/img/properties/surgulu-sineklik-4.jpg", AltText = "surgulu-sineklik-4", ContentType = "image/jpeg" }
 
 
                 );

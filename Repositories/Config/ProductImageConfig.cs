@@ -93,11 +93,69 @@ namespace Repositories.Config
                  new ProductImage() { Id = 64, ProductId = 16, MediaId = 65, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 65, ProductId = 16, MediaId = 66, IsMain = false, DisplayOrder = 3 },
                  //Yat ve Tekne Brandası
-                 new ProductImage() { Id = 66, ProductId = 16, MediaId = 67, IsMain = true, DisplayOrder = 3 },
-                 new ProductImage() { Id = 67, ProductId = 16, MediaId = 68, IsMain = false, DisplayOrder = 3 },
-                 new ProductImage() { Id = 68, ProductId = 16, MediaId = 69, IsMain = false, DisplayOrder = 3 }
+                 new ProductImage() { Id = 66, ProductId = 17, MediaId = 67, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 67, ProductId = 17, MediaId = 68, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 68, ProductId = 17, MediaId = 69, IsMain = false, DisplayOrder = 3 },
+                 //Cam Balkon
+                 new ProductImage() { Id = 69, ProductId = 18, MediaId = 70, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 70, ProductId = 18, MediaId = 71, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 71, ProductId = 18, MediaId = 72, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 72, ProductId = 18, MediaId = 73, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 73, ProductId = 18, MediaId = 74, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 74, ProductId = 18, MediaId = 75, IsMain = false, DisplayOrder = 3 },
+                 //cam-veranda
+                 new ProductImage() { Id = 75, ProductId = 19, MediaId = 76, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 76, ProductId = 19, MediaId = 77, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 77, ProductId = 19, MediaId = 78, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 78, ProductId = 19, MediaId = 79, IsMain = false, DisplayOrder = 3 },
+                 //depo-cadiri
+                 new ProductImage() { Id = 79, ProductId = 20, MediaId = 80, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 80, ProductId = 20, MediaId = 81, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 81, ProductId = 20, MediaId = 82, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 82, ProductId = 20, MediaId = 83, IsMain = false, DisplayOrder = 3 },
+
+                 //dogal-afet-cadiri
+                 new ProductImage() { Id = 83, ProductId = 21, MediaId = 84, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 84, ProductId = 21, MediaId = 85, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 85, ProductId = 21, MediaId = 86, IsMain = false, DisplayOrder = 3 },
 
 
+                 //hali -saha-cadiri
+                 new ProductImage() { Id = 86, ProductId = 22, MediaId = 87, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 87, ProductId = 22, MediaId = 88, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 88, ProductId = 22, MediaId = 89, IsMain = false, DisplayOrder = 3 },
+
+                 //hayvan-besi-cadiri
+                 new ProductImage() { Id = 89, ProductId = 23, MediaId = 90, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 90, ProductId = 23, MediaId = 91, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 91, ProductId = 23, MediaId = 92, IsMain = false, DisplayOrder = 3 },
+
+                 //spor-kompleksi-cadiri
+                 new ProductImage() { Id = 92, ProductId = 24, MediaId = 93, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 93, ProductId = 24, MediaId = 94, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 94, ProductId = 24, MediaId = 95, IsMain = false, DisplayOrder = 3 },
+
+
+                 //santiye-cadiri
+                 new ProductImage() { Id = 95, ProductId = 25, MediaId = 96, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 96, ProductId = 25, MediaId = 97, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 97, ProductId = 25, MediaId = 98, IsMain = false, DisplayOrder = 3 },
+
+                 //kiralik-cadir
+                 new ProductImage() { Id = 98, ProductId = 26, MediaId = 99, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 99, ProductId = 26, MediaId = 100, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 100, ProductId = 26, MediaId = 101, IsMain = false, DisplayOrder = 3 },
+
+                 //konser-toren-cadiri
+                 new ProductImage() { Id = 101, ProductId = 27, MediaId = 102, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 102, ProductId = 27, MediaId = 103, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 103, ProductId = 27, MediaId = 104, IsMain = false, DisplayOrder = 3 },
+
+                 //surgulu-sineklik
+                 new ProductImage() { Id = 104, ProductId = 28, MediaId = 105, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 105, ProductId = 28, MediaId = 106, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 106, ProductId = 28, MediaId = 107, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 107, ProductId = 28, MediaId = 108, IsMain = false, DisplayOrder = 3 }
 
                 );
         }
