@@ -14,7 +14,7 @@ namespace TekSan.Components
 
         public IViewComponentResult Invoke(bool trackChanges)
         {
-            var qurey = _manager.ProductService.GetTwentyProduct(false);
+            var qurey = _manager.ProductService.GetTwentyProduct(false).ToList();   // ← kritik;
             return View(qurey);
         }
     }

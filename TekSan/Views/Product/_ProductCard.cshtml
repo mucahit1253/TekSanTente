@@ -1,25 +1,41 @@
 ﻿@model Product
 @using System.Globalization
-@{
-    // 🔹 Kapak görselini belirle
-    var cover = Model.Images
-        ?.OrderByDescending(i => i.IsMain)   // true kapaksa önce
-         .ThenBy(i => i.DisplayOrder)        // eşitlikte sıraya göre
-        .FirstOrDefault();
 
-    // 🔹 Görsel yolu normalize et
-    var raw = cover?.Media?.Url ?? "assets/img/placeholder.png";
-    var normalized = raw.StartsWith("/") ? raw : "/" + raw;
+@{
+    // 1) Önce kapak (IsMain==true), yoksa ilk görsel
+    var coverUrl =
+        Model.Images?
+            .Where(i => i.IsMain)
+            .OrderBy(i => i.DisplayOrder)
+            .Select(i => i.Media?.Url)
+            .FirstOrDefault()
+        ?? Model.Images?
+            .OrderBy(i => i.DisplayOrder)
+            .Select(i => i.Media?.Url)
+            .FirstOrDefault();
+
+    // 2) URL normalize + placeholder
+    var raw = string.IsNullOrWhiteSpace(coverUrl)
+        ? "~/assets/img/placeholder.png"
+        : coverUrl!;
+
+    // Eğer raw zaten "/" veya "~/" ile başlıyorsa bırak; değilse "~/" ekle
+    var needsTilde = !(raw.StartsWith("/") || raw.StartsWith("~/"));
+    var normalized = needsTilde ? "~/" + raw.TrimStart('/') : raw;
     var imgPath = Url.Content(normalized);
+
+    // 3) Fiyat (null ise boş/çizgi)
+    var priceText = Model.Price.HasValue
+        ? Model.Price.Value.ToString("C2", new CultureInfo("tr-TR"))
+        : "-";
 }
 
 <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
     <div class="card">
-        <img src="@imgPath" alt="@Model.Name" class="img-fluid" />
+        <img src="@imgPath" alt="@Model.Name" class="img-fluid"  />
 
         <div class="card-body">
             <span class="sale-rent">Satın Al</span>
-
             <h3>
                 <a asp-action="Get" asp-route-slug="@Model.Slug" class="stretched-link">
                     @Model.Name
@@ -35,9 +51,7 @@
                 <div class="row">
                     <div class="col">1 m²</div>
                     <div class="col">@Model.Name</div>
-                    <div class="col">
-                        @Model.Price?.ToString("C2", new CultureInfo("tr-TR"))
-                    </div>
+                    <div class="col">@priceText</div>
                 </div>
             </div>
         </div>

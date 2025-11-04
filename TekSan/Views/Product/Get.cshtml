@@ -1,4 +1,17 @@
 ﻿@model ProductDetailVm
+@using System.Globalization
+
+@{
+    var ci = new CultureInfo("tr-TR");
+
+    // Null-güvenli fiyat metni
+    string priceText = Model.Product.Price.HasValue
+        ? Model.Product.Price.Value.ToString("C0", ci)   // Örn: ₺12.345
+        : "Fiyat için arayın";
+
+    // Null-güvenli görsel listesi
+    var images = Model.Images ?? Enumerable.Empty<ProductImage>();
+}
 
 <main class="main">
     <!-- Page Title -->
@@ -15,7 +28,7 @@
         <nav class="breadcrumbs">
             <div class="container">
                 <ol>
-                    <li><a asp-controller="Home" asp-action="index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="index">Ana Menü</a></li>
                     <li class="current">@Model.Product.Name</li>
                 </ol>
             </div>
@@ -38,18 +51,20 @@
                 </script>
 
                 <div class="swiper-wrapper align-items-center">
-                    @foreach (var img in Model.Images)   // artık liste üzerinde dönüyoruz
+                    @foreach (var img in images)
                     {
-                        // img.Media.Url veya img.ImageUrl gibi gerçek yol alanını kullan
-                        var src = img.Media?.Url ??  "assets/img/placeholder.png";
+                        var raw = img?.Media?.Url;
+                        var normalized = string.IsNullOrWhiteSpace(raw) ? "~/assets/img/placeholder.png"
+                        : (raw!.StartsWith("~/") || raw.StartsWith("/")) ? raw
+                        : "~/" + raw.TrimStart('/');
+
+                        var src = Url.Content(normalized);
                         <div class="swiper-slide">
-                            <img  src="@src" alt="@Model.Product.Name" />
+                            <img src="@src" alt="@Model.Product.Name"
+                                style="width:100%; height:720px; object-fit:cover;" />
                         </div>
                     }
                 </div>
-
-                @* Gerekirse ViewComponent'e productId gönder *@
-                @* @await Component.InvokeAsync("ProductImg", new { productId = Model.Product.Id }) *@
 
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -61,22 +76,6 @@
                     <div class="portfolio-description">
                         <p>@Model.Product.Comment</p>
                     </div>
-
-                   @*  <ul class="nav nav-pills mb-3">
-                        <li><a class="nav-link active" data-bs-toggle="pill" href="#real-estate-2-tab1">Video</a></li>
-                        <li><a class="nav-link" data-bs-toggle="pill" href="#real-estate-2-tab2">Floor Plans</a></li>
-                        <li><a class="nav-link" data-bs-toggle="pill" href="#real-estate-2-tab3">Location</a></li>
-                    </ul>
-
-                    <div class="tab-content">
-                        <div class="tab-pane fade show active" id="real-estate-2-tab1"></div>
-                        <div class="tab-pane fade" id="real-estate-2-tab2">
-                            <img src="assets/img/floor-plan.jpg" alt="" class="img-fluid" />
-                        </div>
-                        <div class="tab-pane fade" id="real-estate-2-tab3">
-                            <!-- maps iframe -->
-                        </div>
-                    </div> *@
                 </div>
 
                 <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
@@ -85,13 +84,13 @@
                         <ul>
                             <li><strong>Ürün Adı</strong> @Model.Product.Name</li>
                             <li><strong>Alan</strong> <span>m<sup>2</sup></span></li>
-                            <li><strong>Fiyatı</strong> @Model.Product.Price</li>
+                            <li><strong>Fiyatı</strong> @priceText</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
         </div>
+
         @await Component.InvokeAsync("ProductFooterGet")
     </section>
-</main>

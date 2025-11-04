@@ -992,6 +992,454 @@ namespace TekSan.Migrations
                             ContentType = "image/jpeg",
                             FileName = "surgulu-sineklik-4.jpg",
                             Url = "/assets/img/properties/surgulu-sineklik-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 109,
+                            AltText = "motorlu-giyotin-cam-1",
+                            ContentType = "image/jpeg",
+                            FileName = "motorlu-giyotin-cam-1.jpg",
+                            Url = "/assets/img/properties/motorlu-giyotin-cam-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 110,
+                            AltText = "motorlu-giyotin-cam-2",
+                            ContentType = "image/jpeg",
+                            FileName = "motorlu-giyotin-cam-2.jpg",
+                            Url = "/assets/img/properties/motorlu-giyotin-cam-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 111,
+                            AltText = "motorlu-giyotin-cam-3",
+                            ContentType = "image/jpeg",
+                            FileName = "motorlu-giyotin-cam-3.jpg",
+                            Url = "/assets/img/properties/motorlu-giyotin-cam-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 112,
+                            AltText = "motorlu-giyotin-cam-4",
+                            ContentType = "image/jpeg",
+                            FileName = "motorlu-giyotin-cam-4.jpg",
+                            Url = "/assets/img/properties/motorlu-giyotin-cam-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 113,
+                            AltText = "ustte-toplanır-giyotin-cam-1",
+                            ContentType = "image/jpeg",
+                            FileName = "ustte-toplanır-giyotin-cam-1.jpg",
+                            Url = "/assets/img/properties/ustte-toplanır-giyotin-cam-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 114,
+                            AltText = "ustte-toplanır-giyotin-cam-2",
+                            ContentType = "image/jpeg",
+                            FileName = "ustte-toplanır-giyotin-cam-2.jpg",
+                            Url = "/assets/img/properties/ustte-toplanır-giyotin-cam-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 115,
+                            AltText = "ustte-toplanır-giyotin-cam-3",
+                            ContentType = "image/jpeg",
+                            FileName = "ustte-toplanır-giyotin-cam-3.jpg",
+                            Url = "/assets/img/properties/ustte-toplanır-giyotin-cam-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 116,
+                            AltText = "ustte-toplanır-giyotin-cam-4",
+                            ContentType = "image/jpeg",
+                            FileName = "ustte-toplanır-giyotin-cam-4.jpg",
+                            Url = "/assets/img/properties/ustte-toplanır-giyotin-cam-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 117,
+                            AltText = "silinebilir-giyotin-cam-1",
+                            ContentType = "image/jpeg",
+                            FileName = "silinebilir-giyotin-cam-1.jpg",
+                            Url = "/assets/img/properties/silinebilir-giyotin-cam-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 118,
+                            AltText = "silinebilir-giyotin-cam-2",
+                            ContentType = "image/jpeg",
+                            FileName = "silinebilir-giyotin-cam-2.jpg",
+                            Url = "/assets/img/properties/silinebilir-giyotin-cam-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 119,
+                            AltText = "silinebilir-giyotin-cam-3",
+                            ContentType = "image/jpeg",
+                            FileName = "silinebilir-giyotin-cam-3.jpg",
+                            Url = "/assets/img/properties/silinebilir-giyotin-cam-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 120,
+                            AltText = "silinebilir-giyotin-cam-4",
+                            ContentType = "image/jpeg",
+                            FileName = "silinebilir-giyotin-cam-4.jpg",
+                            Url = "/assets/img/properties/silinebilir-giyotin-cam-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 121,
+                            AltText = "isi-camli-giyotin-1",
+                            ContentType = "image/jpeg",
+                            FileName = "isi-camli-giyotin-1.jpg",
+                            Url = "/assets/img/properties/isi-camli-giyotin-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 122,
+                            AltText = "isi-camli-giyotin-2",
+                            ContentType = "image/jpeg",
+                            FileName = "isi-camli-giyotin-2.jpg",
+                            Url = "/assets/img/properties/isi-camli-giyotin-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 123,
+                            AltText = "isi-camli-giyotin-3",
+                            ContentType = "image/jpeg",
+                            FileName = "isi-camli-giyotin-3.jpg",
+                            Url = "/assets/img/properties/isi-camli-giyotin-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 124,
+                            AltText = "isi-camli-giyotin-4",
+                            ContentType = "image/jpeg",
+                            FileName = "isi-camli-giyotin-4.jpg",
+                            Url = "/assets/img/properties/isi-camli-giyotin-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 125,
+                            AltText = "tek-camli-giyotin-1",
+                            ContentType = "image/jpeg",
+                            FileName = "tek-camli-giyotin-1.jpg",
+                            Url = "/assets/img/properties/tek-camli-giyotin-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 126,
+                            AltText = "tek-camli-giyotin-2",
+                            ContentType = "image/jpeg",
+                            FileName = "tek-camli-giyotin-2.jpg",
+                            Url = "/assets/img/properties/tek-camli-giyotin-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 127,
+                            AltText = "tek-camli-giyotin-3",
+                            ContentType = "image/jpeg",
+                            FileName = "tek-camli-giyotin-3.jpg",
+                            Url = "/assets/img/properties/tek-camli-giyotin-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 128,
+                            AltText = "tek-camli-giyotin-4",
+                            ContentType = "image/jpeg",
+                            FileName = "tek-camli-giyotin-4.jpg",
+                            Url = "/assets/img/properties/tek-camli-giyotin-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 129,
+                            AltText = "tek-camli-giyotin-4",
+                            ContentType = "image/jpeg",
+                            FileName = "tek-camli-giyotin-4.jpg",
+                            Url = "/assets/img/properties/tek-camli-giyotin-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 130,
+                            AltText = "tek-camli-giyotin-4",
+                            ContentType = "image/jpeg",
+                            FileName = "tek-camli-giyotin-4.jpg",
+                            Url = "/assets/img/properties/tek-camli-giyotin-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 131,
+                            AltText = "tek-camli-giyotin-4",
+                            ContentType = "image/jpeg",
+                            FileName = "tek-camli-giyotin-4.jpg",
+                            Url = "/assets/img/properties/tek-camli-giyotin-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 132,
+                            AltText = "tek-camli-giyotin-4",
+                            ContentType = "image/jpeg",
+                            FileName = "tek-camli-giyotin-4.jpg",
+                            Url = "/assets/img/properties/tek-camli-giyotin-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 133,
+                            AltText = "katlanir-cam-balkon-1",
+                            ContentType = "image/jpeg",
+                            FileName = "katlanir-cam-balkon-1.jpg",
+                            Url = "/assets/img/properties/katlanir-cam-balkon-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 134,
+                            AltText = "katlanir-cam-balkon-2",
+                            ContentType = "image/jpeg",
+                            FileName = "katlanir-cam-balkon-2.jpg",
+                            Url = "/assets/img/properties/katlanir-cam-balkon-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 135,
+                            AltText = "katlanir-cam-balkon-3",
+                            ContentType = "image/jpeg",
+                            FileName = "katlanir-cam-balkon-3.jpg",
+                            Url = "/assets/img/properties/katlanir-cam-balkon-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 136,
+                            AltText = "katlanir-cam-balkon-4",
+                            ContentType = "image/jpeg",
+                            FileName = "katlanir-cam-balkon-4.jpg",
+                            Url = "/assets/img/properties/katlanir-cam-balkon-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 137,
+                            AltText = "acilir-cam-tavan-sistemleri-1",
+                            ContentType = "image/jpeg",
+                            FileName = "acilir-cam-tavan-sistemleri-1.jpg",
+                            Url = "/assets/img/properties/acilir-cam-tavan-sistemleri-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 138,
+                            AltText = "acilir-cam-tavan-sistemleri-2",
+                            ContentType = "image/jpeg",
+                            FileName = "acilir-cam-tavan-sistemleri-2.jpg",
+                            Url = "/assets/img/properties/acilir-cam-tavan-sistemleri-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 139,
+                            AltText = "acilir-cam-tavan-sistemleri-3",
+                            ContentType = "image/jpeg",
+                            FileName = "acilir-cam-tavan-sistemleri-3.jpg",
+                            Url = "/assets/img/properties/acilir-cam-tavan-sistemleri-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 140,
+                            AltText = "acilir-cam-tavan-sistemleri-4",
+                            ContentType = "image/jpeg",
+                            FileName = "acilir-cam-tavan-sistemleri-4.jpg",
+                            Url = "/assets/img/properties/acilir-cam-tavan-sistemleri-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 141,
+                            AltText = "cam-cati-sistemleri-1",
+                            ContentType = "image/jpeg",
+                            FileName = "cam-cati-sistemleri-1.jpg",
+                            Url = "/assets/img/properties/cam-cati-sistemleri-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 142,
+                            AltText = "cam-cati-sistemleri-2",
+                            ContentType = "image/jpeg",
+                            FileName = "cam-cati-sistemleri-2.jpg",
+                            Url = "/assets/img/properties/cam-cati-sistemleri-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 143,
+                            AltText = "cam-cati-sistemleri-3",
+                            ContentType = "image/jpeg",
+                            FileName = "cam-cati-sistemleri-3.jpg",
+                            Url = "/assets/img/properties/cam-cati-sistemleri-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 144,
+                            AltText = "cam-cati-sistemleri-4",
+                            ContentType = "image/jpeg",
+                            FileName = "cam-cati-sistemleri-4.jpg",
+                            Url = "/assets/img/properties/cam-cati-sistemleri-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 145,
+                            AltText = "motorlu-tente-1",
+                            ContentType = "image/jpeg",
+                            FileName = "motorlu-tente-1.jpg",
+                            Url = "/assets/img/properties/motorlu-tente-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 146,
+                            AltText = "motorlu-tente-2",
+                            ContentType = "image/jpeg",
+                            FileName = "motorlu-tente-2.jpg",
+                            Url = "/assets/img/properties/motorlu-tente-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 147,
+                            AltText = "motorlu-tente-3",
+                            ContentType = "image/jpeg",
+                            FileName = "motorlu-tente-3.jpg",
+                            Url = "/assets/img/properties/motorlu-tente-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 148,
+                            AltText = "motorlu-tente-4",
+                            ContentType = "image/jpeg",
+                            FileName = "motorlu-tente-4.jpg",
+                            Url = "/assets/img/properties/motorlu-tente-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 149,
+                            AltText = "sabit-tente-1",
+                            ContentType = "image/jpeg",
+                            FileName = "sabit-tente-1.jpg",
+                            Url = "/assets/img/properties/sabit-tente-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 150,
+                            AltText = "sabit-tente-2",
+                            ContentType = "image/jpeg",
+                            FileName = "sabit-tente-2.jpg",
+                            Url = "/assets/img/properties/sabit-tente-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 151,
+                            AltText = "sabit-tente-3",
+                            ContentType = "image/jpeg",
+                            FileName = "sabit-tente-3.jpg",
+                            Url = "/assets/img/properties/sabit-tente-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 152,
+                            AltText = "sabit-tente-4",
+                            ContentType = "image/jpeg",
+                            FileName = "sabit-tente-4.jpg",
+                            Url = "/assets/img/properties/sabit-tente-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 153,
+                            AltText = "kumandali-tente-1",
+                            ContentType = "image/jpeg",
+                            FileName = "kumandali-tente-1.jpg",
+                            Url = "/assets/img/properties/kumandali-tente-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 154,
+                            AltText = "kumandali-tente-2",
+                            ContentType = "image/jpeg",
+                            FileName = "kumandali-tente-2.jpg",
+                            Url = "/assets/img/properties/kumandali-tente-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 155,
+                            AltText = "kumandali-tente-3",
+                            ContentType = "image/jpeg",
+                            FileName = "kumandali-tente-3.jpg",
+                            Url = "/assets/img/properties/kumandali-tente-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 156,
+                            AltText = "kumandali-tente-4",
+                            ContentType = "image/jpeg",
+                            FileName = "kumandali-tente-4.jpg",
+                            Url = "/assets/img/properties/kumandali-tente-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 157,
+                            AltText = "rolling-roof-tente-1",
+                            ContentType = "image/jpeg",
+                            FileName = "rolling-roof-tente-1.jpg",
+                            Url = "/assets/img/properties/rolling-roof-tente-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 158,
+                            AltText = "rolling-roof-tente-2",
+                            ContentType = "image/jpeg",
+                            FileName = "rolling-roof-tente-2.jpg",
+                            Url = "/assets/img/properties/rolling-roof-tente-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 159,
+                            AltText = "rolling-roof-tente-3",
+                            ContentType = "image/jpeg",
+                            FileName = "rolling-roof-tente-3.jpg",
+                            Url = "/assets/img/properties/rolling-roof-tente-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 160,
+                            AltText = "rolling-roof-tente-4",
+                            ContentType = "image/jpeg",
+                            FileName = "rolling-roof-tente-4.jpg",
+                            Url = "/assets/img/properties/rolling-roof-tente-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 161,
+                            AltText = "bio-klimatik-tente-1",
+                            ContentType = "image/jpeg",
+                            FileName = "bio-klimatik-tente-1.jpg",
+                            Url = "/assets/img/properties/bio-klimatik-tente-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 162,
+                            AltText = "bio-klimatik-tente-2",
+                            ContentType = "image/jpeg",
+                            FileName = "bio-klimatik-tente-2.jpg",
+                            Url = "/assets/img/properties/bio-klimatik-tente-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 163,
+                            AltText = "bio-klimatik-tente-3",
+                            ContentType = "image/jpeg",
+                            FileName = "bio-klimatik-tente-3.jpg",
+                            Url = "/assets/img/properties/bio-klimatik-tente-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 164,
+                            AltText = "bio-klimatik-tente-4",
+                            ContentType = "image/jpeg",
+                            FileName = "bio-klimatik-tente-4.jpg",
+                            Url = "/assets/img/properties/bio-klimatik-tente-4.jpg"
                         });
                 });
 
@@ -1033,7 +1481,6 @@ namespace TekSan.Migrations
                             CategoryId = 2,
                             Comment = "Pergole Tenteler Ticari alanlarda veya konutlarda kullanılan pergole tente sistemleri, dış mekanda yaşam kalitesini yükselten ekipmanlardan oluşur. Çok uzun yıllar boyunca kullanılan pergole tente, hava koşullarına karşı en ideal yaşam alanları oluşturmayı sağlar. Bu sistemler teknolojik gelişmelerle birlikte güncellenip motor ve sensör desteğiyle daha kullanışlı hale gelmiştir. İşyeriniz veya eviniz için ihtiyacınız olan tüm pergola tenteleri firmamızdan uygun fiyatlarla tedarik edebilirsiniz. ",
                             Name = "Pergole Tente",
-                            Price = 2000m,
                             Slug = "pergole-tente"
                         },
                         new
@@ -1042,7 +1489,6 @@ namespace TekSan.Migrations
                             CategoryId = 2,
                             Comment = "Körüklü tentelerin kurulumu ve kullanıma kolay tente modellerinden sadece biridir. Tente Sistemi Akordeon Şeklinde Açılıp Kapanmaktadır Diğer Tentelerde Farkı yan kısımlar Kapalı olduğundan Güneş ve Yağmur gelmesini Engeller  kullanıldığı alanlarda şık Dizaynı ve Tasarımıyla bulunduğu alana ayrı bir Görsellik katar.\r\n\r\nKörüklü Sisteminin Saçak Modeli Deniz dalgası modeli veya Düz saçak modeli tercih edilmektedir.",
                             Name = "Körük Tente",
-                            Price = 2500m,
                             Slug = "koruk-tente"
                         },
                         new
@@ -1051,7 +1497,6 @@ namespace TekSan.Migrations
                             CategoryId = 2,
                             Comment = "Stor tente normal mafsallı tentenin kolsuz modelidir.karşıdan gelen güneş için tercih edilen bir modeldir. Stor tente Yukardan aşağı açılıp kapanan bir modeldir istenildiği taktirde motorlu sistemde uyumludur.stor tente asıl amacı, gölgelendirme işlevini yapmak olsa da fonksiyonellik yönünden de hiçbir şekilde sınır tanımamaktadır.",
                             Name = "Stor Tente",
-                            Price = 1500m,
                             Slug = "stor-tente"
                         },
                         new
@@ -1060,7 +1505,6 @@ namespace TekSan.Migrations
                             CategoryId = 2,
                             Comment = "Çift açılır tente kurulumu ve kullanımı kolay tente modellerinden sadece biridir.\r\n\r\nBu tente sayesinde hem daha sağlıklı bir hava ortamına sahip olursunuz hemde iş yerleriniz daha güzel bire görünüme kavuşmaktadır. taksitli fiyatları akrilik kumaşlı ısı geçirmeyen garanti belgeli kaliteli",
                             Name = "Çift Açılır Tente",
-                            Price = 5000m,
                             Slug = "cift-acılır-tente"
                         },
                         new
@@ -1069,215 +1513,303 @@ namespace TekSan.Migrations
                             CategoryId = 2,
                             Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
                             Name = "Mafsallı Tente",
-                            Price = 30000m,
                             Slug = "mafsalli-tente"
                         },
                         new
                         {
                             Id = 6,
                             CategoryId = 1,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Giyotin cam sistemleri, özellikle teras, balkon, kış bahçesi ve geniş cephe uygulamalarında şık, kullanışlı ve modern bir çözümdür. Üstten ya da alttan raylar üzerinde dikey olarak kayan cam paneller sayesinde açıklık tamamen açılabilir ya da istenirse tamamen kapanabilir.Cam panellerin pürüzsüz kayışıyla yüksek manevra kabiliyeti sunar.Isı, ses ve rüzgâr yalıtımında etkili çözümler sağlar.Minimal profil tasarımıyla görüş alanını geniş tutar, mekâna ferahlık katar.Üstten kilit mekanizmaları ve güvenlik cam seçenekleriyle güvenli kullanım sunar.Farklı açılı uygulamalara (örneğin çatı çıkıntıları veya yüksek cepheler) adaptasyon imkânı verir.Giyotin cam sistemleri, hem estetik hem teknik açıdan yükselen bir tercih olarak dış mekânların yaşam alanına dönüşmesine katkı sağlar.",
                             Name = "Giyotin Cam",
-                            Price = 30000m,
                             Slug = "giyotin-cam"
                         },
                         new
                         {
                             Id = 7,
                             CategoryId = 1,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Fotoselli giyotin cam kapı sistemleri, modern mimarinin şık görünümünü ileri düzey teknolojiyle birleştiren otomatik kapı çözümleridir. Dikey hareketli cam paneller, sensör (fotosel) yardımıyla kişi veya araç algılandığında otomatik olarak açılıp kapanır. Bu sayede hem kullanım kolaylığı hem de enerji verimliliği sağlar.",
                             Name = "Fotoselli Giyotin Cam Kapı",
-                            Price = 30000m,
                             Slug = "fotoselli-giyotin-cam-kapi"
                         },
                         new
                         {
                             Id = 8,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Şeffaf kış bahçesi brandası, açık alanları dört mevsim kullanılabilir hale getiren en pratik ve ekonomik çözümlerden biridir. Soğuk, rüzgâr, yağmur ve kar gibi dış etkenlerden korunmak için tasarlanan bu sistem, mekanın doğal ışığını kesmeden mükemmel bir koruma sağlar.",
                             Name = "Şeffaf Kış Bahçesi",
-                            Price = 30000m,
                             Slug = "seffaf-kıs-bahcesi"
                         },
                         new
                         {
                             Id = 9,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Şeffaf alan kapama sistemleri, açık alanları dış etkenlerden koruyarak dört mevsim kullanılabilir hale getiren modern çözümlerdir. Yüksek kaliteli şeffaf PVC malzemeden üretilen bu brandalar, hem dayanıklı hem de estetik bir kullanım sunar. Mekânın doğal ışığını engellemeden koruma sağlar; böylece iç mekânlar ferahlığını kaybetmeden dış ortam koşullarına karşı korunur.",
                             Name = "Şeffaf Alan Kapama",
-                            Price = 30000m,
                             Slug = "seffaf-alan-kapama"
                         },
                         new
                         {
                             Id = 10,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Şeffaf PVC Mika branda, dış mekânları her mevsim konforlu ve kullanışlı hale getiren modern koruma sistemlerinden biridir. Tam şeffaf yapısı sayesinde dış ortamla görsel bağlantıyı kesmeden, yağmur, rüzgâr, toz ve soğuk gibi olumsuz hava koşullarına karşı mükemmel koruma sağlar.",
                             Name = "Şeffaf Pvc Mika Branda",
-                            Price = 30000m,
                             Slug = "seffaf-pvc-mika-branda"
                         },
                         new
                         {
                             Id = 11,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Havuz brandası, yüzme havuzlarını dış etkenlerden korumak, güvenliği artırmak ve temizlik maliyetlerini düşürmek için geliştirilen dayanıklı bir kaplama sistemidir. Mevsimsel kullanıma uygun olan bu brandalar, hem açık hem de kapalı havuzlarda estetik ve fonksiyonel bir çözüm sunar.",
                             Name = "Havuz Brandası",
-                            Price = 30000m,
                             Slug = "havuz-brandasi"
                         },
                         new
                         {
                             Id = 12,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "İskele brandası, inşaat ve tadilat alanlarında güvenliği sağlamak, çevreyi korumak ve estetik bir görünüm oluşturmak amacıyla kullanılan özel bir koruma sistemidir. Dayanıklı PVC veya polietilen (PE) malzemeden üretilen iskele brandaları, hem çalışanların hem de çevredeki insanların güvenliğini artırırken, yapı alanını dış etkenlerden korur.",
                             Name = "İskele Brandası",
-                            Price = 30000m,
                             Slug = "iskele-brandasi"
                         },
                         new
                         {
                             Id = 13,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Kamelya brandası, açık alanlarda bulunan kamelya, çardak ve oturma alanlarını dört mevsim koruma altına almak için tasarlanmış şık ve dayanıklı bir kaplama sistemidir. Estetik görünümü, uzun ömürlü malzemesi ve hava koşullarına karşı yüksek direnci sayesinde konforlu bir dış mekân deneyimi sunar.",
                             Name = "Kamelya Branda",
-                            Price = 30000m,
                             Slug = "kamelya-branda"
                         },
                         new
                         {
                             Id = 14,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Pazar brandası, açık alanlarda kurulan pazar yerleri, tezgâhlar ve satış alanlarını güneş, yağmur, rüzgâr gibi dış etkenlerden korumak için özel olarak üretilen dayanıklı kaplama sistemidir. Hafif yapısı, kolay kurulumu ve uzun ömürlü malzemesi sayesinde esnaflar ve organizasyon alanları için pratik bir çözümdür.",
                             Name = "Pazar Brandası",
-                            Price = 30000m,
                             Slug = "pazar-brandasi"
                         },
                         new
                         {
                             Id = 15,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Reklam brandası, markanı veya işletmeni geniş kitlelere tanıtmak için kullanılan en etkili ve ekonomik açık hava reklam çözümlerinden biridir. Dayanıklı branda kumaşı üzerine yüksek çözünürlüklü dijital baskı uygulanarak üretilen bu sistemler, hem iç hem de dış mekânlarda uzun süreli görünürlük sağlar.",
                             Name = "Reklam Brandası",
-                            Price = 30000m,
                             Slug = "reklam-brandasi"
                         },
                         new
                         {
                             Id = 16,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Araç koruma brandası, otomobilleri güneş, yağmur, dolu, kar, kuş pisliği, toz ve ağaç reçinesi gibi dış etkenlerden korumak için özel olarak tasarlanmış pratik bir örtü sistemidir. Dayanıklı, su geçirmez ve UV ışınlarına karşı dirençli yapısı sayesinde aracınızın dış yüzeyini her mevsim güvenle korur.",
                             Name = "Araç Koruma Brandası",
-                            Price = 30000m,
                             Slug = "arac-koruma-brandasi"
                         },
                         new
                         {
                             Id = 17,
                             CategoryId = 3,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Yat ve tekne brandası, deniz taşıtlarını güneş, tuzlu su, yağmur, rüzgâr ve kuş pisliği gibi dış etkenlerden korumak için özel olarak tasarlanmış dayanıklı bir koruma sistemidir. Su geçirmez, UV dayanımlı ve uzun ömürlü kumaş yapısı sayesinde teknenizi yıl boyunca güvenle muhafaza eder.",
                             Name = "Yat ve Tekne Brandası",
-                            Price = 30000m,
                             Slug = "yat-tekne-brandasi"
                         },
                         new
                         {
                             Id = 18,
                             CategoryId = 4,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Cam balkon sistemleri, balkonları dört mevsim kullanılabilir hale getiren, modern, estetik ve fonksiyonel bir kaplama çözümüdür. Isı, ses ve rüzgâr yalıtımı sağlayan bu sistemler, mekânın mimarisine değer katarken yaşam alanlarına da konfor kazandırır.",
                             Name = "Cam Balkon",
-                            Price = 30000m,
                             Slug = "cam-balkon"
                         },
                         new
                         {
                             Id = 19,
                             CategoryId = 4,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Cam veranda sistemleri, açık alanları modern, estetik ve korunaklı yaşam alanlarına dönüştüren şık mimari çözümlerden biridir. Dört mevsim kullanılabilen yapısıyla verandanı hem yağmurdan hem rüzgârdan korur; aynı zamanda ferah, aydınlık ve konforlu bir ortam oluşturur.",
                             Name = "Cam Veranda",
-                            Price = 30000m,
                             Slug = "cam-veranda"
                         },
                         new
                         {
                             Id = 20,
                             CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Depo çadırı, sanayi, tarım ve lojistik sektörlerinde malzeme, ürün ve ekipmanların güvenli bir şekilde korunması için tasarlanmış, dayanıklı ve ekonomik bir kapalı alan çözümüdür. Hızlı kurulumu, taşınabilir yapısı ve uzun ömürlü malzemesi sayesinde kalıcı binalara alternatif olarak sıkça tercih edilir.",
                             Name = "Depo Çadırı",
-                            Price = 30000m,
                             Slug = "depo-cadiri"
                         },
                         new
                         {
                             Id = 21,
                             CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Doğal afet çadırı, deprem, sel, yangın, fırtına veya diğer acil durumlarda barınma ihtiyacını hızlı bir şekilde karşılamak üzere tasarlanmış, dayanıklı ve pratik kurulumlu geçici yaşam alanıdır. Zorlu hava koşullarına dayanıklı yapısı ve kolay taşınabilirliği sayesinde, afet bölgelerinde en güvenilir barınma çözümlerinden biridir.",
                             Name = "Doğal Afet Çadırı",
-                            Price = 30000m,
                             Slug = "dogal-afet-cadiri"
                         },
                         new
                         {
                             Id = 22,
                             CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Halı saha çadırı, açık veya kapalı spor alanlarını dört mevsim kullanılabilir hale getiren, dayanıklı ve estetik bir kaplama sistemidir. Spor tesisleri için özel olarak tasarlanan bu yapılar; hava koşullarına karşı tam koruma sağlarken, aynı zamanda modern ve ferah bir oyun ortamı sunar.",
                             Name = "Halı Saha Çadırı",
-                            Price = 30000m,
                             Slug = "hali -saha-cadiri"
                         },
                         new
                         {
                             Id = 23,
                             CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Hayvan besi çadırı, büyükbaş ve küçükbaş hayvanların barınma, beslenme ve üretim süreçlerinde kullanılan, dayanıklı ve ekonomik bir barınak çözümüdür. Hızlı kurulumu, geniş iç hacmi ve uzun ömürlü yapısıyla modern hayvancılık işletmeleri için ideal bir seçenektir.",
                             Name = "Hayvan Besi Çadırı",
-                            Price = 30000m,
                             Slug = "hayvan-besi-cadiri"
                         },
                         new
                         {
                             Id = 24,
                             CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Spor kompleksi çadırı, kapalı veya yarı kapalı spor alanlarını dört mevsim kullanılabilir hale getiren modern, dayanıklı ve ekonomik çözümlerden biridir. Hızlı kurulumu, uzun ömürlü yapısı ve estetik tasarımı sayesinde farklı spor dallarına uygun, geniş ve ferah bir oyun alanı oluşturur.",
                             Name = "Spor Kompleksi Çadırı",
-                            Price = 30000m,
                             Slug = "spor-kompleksi-cadiri"
                         },
                         new
                         {
                             Id = 25,
                             CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Şantiye çadırı, inşaat ve saha çalışmalarında personel, malzeme ve ekipmanların korunması için kullanılan pratik, dayanıklı ve ekonomik barınma çözümlerinden biridir. Hızlı kurulumu, taşınabilir yapısı ve uzun ömürlü malzemesi sayesinde her türlü zemin ve iklim koşulunda güvenli kullanım sağlar.",
                             Name = "Şantiye Çadırı",
-                            Price = 30000m,
                             Slug = "santiye-cadiri"
                         },
                         new
                         {
                             Id = 26,
                             CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Kiralık çadır sistemleri, kısa süreli organizasyon, etkinlik, fuar, düğün, inşaat veya geçici depolama ihtiyaçları için en pratik ve ekonomik çözümlerden biridir. Dayanıklı yapısı, kolay kurulumu ve taşınabilirliği sayesinde farklı sektörlerde güvenle kullanılabilir.",
                             Name = "Kiralık Çadır",
-                            Price = 30000m,
                             Slug = "kiralik-cadir"
                         },
                         new
                         {
                             Id = 27,
                             CategoryId = 5,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Konser ve tören çadırı sistemleri, açık alan etkinliklerinde hava koşullarından etkilenmeden güvenli, konforlu ve estetik bir organizasyon ortamı oluşturmak için tasarlanmış modern çözümlerdir. Dayanıklı yapısı, geniş alan kaplama kapasitesi ve şık tasarımıyla her türlü etkinliğe profesyonel bir görünüm kazandırır.",
                             Name = "Konser Tören Çadırı",
-                            Price = 30000m,
                             Slug = "konser-toren-cadiri"
                         },
                         new
                         {
                             Id = 28,
                             CategoryId = 6,
-                            Comment = "Mafsallı tente gerek kış aylarında oluşabilecek olumsuz hava koşullarından korunmak gerekse yazın güneşten kaçınmak için yaptırılan kurulumu ve kullanıma kolay bir tente modelidir.",
+                            Comment = "Sürgülü sineklik sistemleri, pencere ve kapılarda havalandırma konforunu bozmadan sinek, böcek ve haşerelere karşı etkili koruma sağlayan pratik çözümlerdir. Şık tasarımı, kolay kullanımı ve uzun ömürlü yapısıyla modern yaşam alanlarının vazgeçilmez bir parçasıdır.",
                             Name = "Sürgülü Sineklik",
-                            Price = 30000m,
                             Slug = "surgulu-sineklik"
+                        },
+                        new
+                        {
+                            Id = 29,
+                            CategoryId = 1,
+                            Comment = "Motorlu giyotin cam sistemleri, modern mimarinin en şık ve işlevsel çözümlerinden biridir. Dikey hareketle çalışan otomatik cam paneller, uzaktan kumanda veya buton yardımıyla kolayca açılıp kapanabilir. Bu sayede mekanlarda estetik, konfor ve teknolojiyi bir arada sunar.",
+                            Name = "Motorlu Giyotin Cam",
+                            Slug = "motorlu-giyotin-cam"
+                        },
+                        new
+                        {
+                            Id = 30,
+                            CategoryId = 1,
+                            Comment = "Üstte toplanır giyotin cam sistemleri, modern mimaride estetik ve konforu bir araya getiren yenilikçi bir cam kapama çözümüdür. Dikey hareketli paneller, özel motor sistemi sayesinde yukarı doğru toplanarak açık alanların pratik şekilde kontrol edilmesini sağlar. Kafe, restoran, otel, veranda ve teraslarda sıklıkla tercih edilir.",
+                            Name = "Üstte Toplanır Giyotin Cam",
+                            Slug = "ustte-toplanır-giyotin-cam"
+                        },
+                        new
+                        {
+                            Id = 31,
+                            CategoryId = 1,
+                            Comment = "Silinebilir giyotin cam sistemleri, modern yapılarda estetik görünüm, konfor ve kolay bakım avantajlarını bir arada sunan yenilikçi bir cam kaplama çözümüdür. Dikey hareketli cam paneller, özel mekanizması sayesinde kolayca temizlenebilir ve bakım gerektirmeden uzun yıllar kullanılabilir.",
+                            Name = "Silinebilir Giyotin Cam",
+                            Slug = "silinebilir-giyotin-cam"
+                        },
+                        new
+                        {
+                            Id = 32,
+                            CategoryId = 1,
+                            Comment = "Isı camlı giyotin cam sistemleri, modern mimarinin zarif tasarımını yüksek ısı yalıtımıyla birleştiren yenilikçi bir cam kapama çözümüdür. Dikey hareketli cam paneller, uzaktan kumanda veya buton yardımıyla kolayca kontrol edilirken, çift cam teknolojisi sayesinde hem enerji tasarrufu hem de konfor sağlar.",
+                            Name = "Isı Camlı Giyotin",
+                            Slug = "isi-camli-giyotin"
+                        },
+                        new
+                        {
+                            Id = 33,
+                            CategoryId = 1,
+                            Comment = "Tek camlı giyotin sistemleri, modern mimarinin zarif çizgilerini pratik kullanım ve ekonomik çözümlerle birleştiren yenilikçi cam kapama sistemleridir. Dikey hareketle çalışan cam paneller, motorlu veya manuel mekanizma sayesinde kolayca açılıp kapanabilir. Şeffaf, estetik ve hafif yapısıyla hem konut hem de ticari alanlarda sıkça tercih edilir.",
+                            Name = "Tek Camlı Giyotin",
+                            Slug = "tek-camli-giyotin"
+                        },
+                        new
+                        {
+                            Id = 34,
+                            CategoryId = 1,
+                            Comment = "Kumandalı giyotin cam sistemleri, modern yaşam alanlarında konfor, güvenlik ve estetiği bir araya getiren yenilikçi bir cam kaplama çözümüdür. Uzaktan kumanda veya buton yardımıyla kolayca kontrol edilen dikey hareketli cam paneller, açık alanları dilediğin gibi yönetme özgürlüğü sunar.",
+                            Name = "Kumandalı Giyotin Cam",
+                            Slug = "kumandali-giyotin-cam"
+                        },
+                        new
+                        {
+                            Id = 35,
+                            CategoryId = 4,
+                            Comment = "Katlanır cam balkon sistemleri, modern yaşam alanlarında estetik, konfor ve fonksiyonelliği bir araya getiren en popüler cam kapama çözümlerinden biridir. Cam panellerin yana doğru katlanarak tamamen açılabilmesi, balkonları ve terasları dört mevsim kullanılabilir hale getirir.",
+                            Name = "Katlanır Cam Balkon",
+                            Slug = "katlanir-cam-balkon"
+                        },
+                        new
+                        {
+                            Id = 36,
+                            CategoryId = 4,
+                            Comment = "Açılır cam tavan sistemleri, iç mekânlara doğal ışık kazandırırken dış etkenlerden korunmayı sağlayan modern ve estetik mimari çözümlerden biridir. Uzaktan kumanda veya manuel mekanizma ile kolayca açılıp kapanabilen bu sistemler, yaşam alanlarını dört mevsim kullanılabilir hale getirir.",
+                            Name = "Açılır Cam Tavan Sistemleri",
+                            Slug = "acilir-cam-tavan-sistemleri"
+                        },
+                        new
+                        {
+                            Id = 37,
+                            CategoryId = 4,
+                            Comment = "Cam çatı sistemleri, mimaride şeffaflık ve doğal ışığı ön plana çıkaran modern bir kaplama çözümüdür. Dayanıklı yapısı ve estetik görünümüyle hem konutlarda hem de ticari yapılarda tercih edilir. Geniş açıklıkları kapatarak mekânlara ferahlık kazandıran bu sistemler, dört mevsim konforu bir arada sunar.",
+                            Name = "Cam Çatı Sistemleri",
+                            Slug = "cam-cati-sistemleri"
+                        },
+                        new
+                        {
+                            Id = 38,
+                            CategoryId = 2,
+                            Comment = "Motorlu tente sistemleri, modern yaşam alanlarında konfor, estetik ve işlevselliği bir araya getiren en pratik gölgelendirme çözümlerinden biridir. Uzaktan kumanda, buton veya sensör desteğiyle kolayca açılıp kapanan bu sistemler, güneşten, yağmurdan ve rüzgârdan koruma sağlayarak açık alanları dört mevsim kullanılabilir hale getirir.",
+                            Name = "Motorlu Tente",
+                            Slug = "motorlu-tente"
+                        },
+                        new
+                        {
+                            Id = 39,
+                            CategoryId = 2,
+                            Comment = "Sabit tente sistemleri, dayanıklılığı ve estetik görünümüyle uzun yıllar boyunca koruma sağlayan en klasik ve güvenilir gölgelendirme çözümlerinden biridir. Yapıya sabit şekilde monte edilen bu tenteler, her türlü hava koşuluna karşı koruma sunarken mekânlara modern bir görünüm kazandırır.",
+                            Name = "Sabit Tente",
+                            Slug = "sabit-tente"
+                        },
+                        new
+                        {
+                            Id = 40,
+                            CategoryId = 2,
+                            Comment = "Kumandalı tente sistemleri, modern yaşam alanlarında konforu ve estetiği bir araya getiren en gelişmiş gölgelendirme çözümlerinden biridir. Uzaktan kumanda veya buton yardımıyla kolayca açılıp kapanabilen bu sistemler, hem kullanıcı dostu yapısı hem de şık tasarımıyla açık alanları dört mevsim kullanılabilir hale getirir.",
+                            Name = "Kumandalı Tente",
+                            Slug = "kumandali-tente"
+                        },
+                        new
+                        {
+                            Id = 41,
+                            CategoryId = 2,
+                            Comment = "Rolling Roof tente sistemleri, modern mimarinin en yenilikçi dış mekân çözümlerinden biridir. Açılır-kapanır tavan yapısı sayesinde tam gölgelendirme, havalandırma ve koruma sunan bu sistem, hem estetik hem de teknolojik yapısıyla yaşam alanlarını dört mevsim kullanılabilir hale getirir.",
+                            Name = "Rolling Roof Tente",
+                            Slug = "rolling-roof-tente"
+                        },
+                        new
+                        {
+                            Id = 42,
+                            CategoryId = 2,
+                            Comment = "Biyoklimatik tente sistemleri, doğa ile uyumlu şekilde tasarlanmış, modern yaşam alanlarına konfor ve estetik kazandıran ileri teknoloji gölgelendirme çözümleridir. Alüminyum panellerin açılıp kapanabilen yapısı sayesinde güneş ışığını, havayı ve yağmuru kontrollü şekilde yönlendirir; böylece açık alanlar dört mevsim kullanılabilir hale gelir.",
+                            Name = "Bio Klimatik Tente",
+                            Slug = "bio-klimatik-tente"
                         });
                 });
 
@@ -2165,6 +2697,454 @@ namespace TekSan.Migrations
                             IsMain = false,
                             MediaId = 108,
                             ProductId = 28
+                        },
+                        new
+                        {
+                            Id = 108,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 109,
+                            ProductId = 29
+                        },
+                        new
+                        {
+                            Id = 109,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 110,
+                            ProductId = 29
+                        },
+                        new
+                        {
+                            Id = 110,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 111,
+                            ProductId = 29
+                        },
+                        new
+                        {
+                            Id = 111,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 112,
+                            ProductId = 29
+                        },
+                        new
+                        {
+                            Id = 112,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 113,
+                            ProductId = 30
+                        },
+                        new
+                        {
+                            Id = 113,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 114,
+                            ProductId = 30
+                        },
+                        new
+                        {
+                            Id = 114,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 115,
+                            ProductId = 30
+                        },
+                        new
+                        {
+                            Id = 115,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 116,
+                            ProductId = 30
+                        },
+                        new
+                        {
+                            Id = 116,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 117,
+                            ProductId = 31
+                        },
+                        new
+                        {
+                            Id = 117,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 118,
+                            ProductId = 31
+                        },
+                        new
+                        {
+                            Id = 118,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 119,
+                            ProductId = 31
+                        },
+                        new
+                        {
+                            Id = 119,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 120,
+                            ProductId = 31
+                        },
+                        new
+                        {
+                            Id = 120,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 121,
+                            ProductId = 32
+                        },
+                        new
+                        {
+                            Id = 121,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 122,
+                            ProductId = 32
+                        },
+                        new
+                        {
+                            Id = 122,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 123,
+                            ProductId = 32
+                        },
+                        new
+                        {
+                            Id = 123,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 124,
+                            ProductId = 32
+                        },
+                        new
+                        {
+                            Id = 124,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 125,
+                            ProductId = 33
+                        },
+                        new
+                        {
+                            Id = 125,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 126,
+                            ProductId = 33
+                        },
+                        new
+                        {
+                            Id = 126,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 127,
+                            ProductId = 33
+                        },
+                        new
+                        {
+                            Id = 127,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 128,
+                            ProductId = 33
+                        },
+                        new
+                        {
+                            Id = 128,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 129,
+                            ProductId = 34
+                        },
+                        new
+                        {
+                            Id = 129,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 130,
+                            ProductId = 34
+                        },
+                        new
+                        {
+                            Id = 130,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 131,
+                            ProductId = 34
+                        },
+                        new
+                        {
+                            Id = 131,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 132,
+                            ProductId = 34
+                        },
+                        new
+                        {
+                            Id = 132,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 133,
+                            ProductId = 35
+                        },
+                        new
+                        {
+                            Id = 133,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 134,
+                            ProductId = 35
+                        },
+                        new
+                        {
+                            Id = 134,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 135,
+                            ProductId = 35
+                        },
+                        new
+                        {
+                            Id = 135,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 136,
+                            ProductId = 35
+                        },
+                        new
+                        {
+                            Id = 136,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 137,
+                            ProductId = 36
+                        },
+                        new
+                        {
+                            Id = 137,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 138,
+                            ProductId = 36
+                        },
+                        new
+                        {
+                            Id = 138,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 139,
+                            ProductId = 36
+                        },
+                        new
+                        {
+                            Id = 139,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 140,
+                            ProductId = 36
+                        },
+                        new
+                        {
+                            Id = 140,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 141,
+                            ProductId = 37
+                        },
+                        new
+                        {
+                            Id = 141,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 142,
+                            ProductId = 37
+                        },
+                        new
+                        {
+                            Id = 142,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 143,
+                            ProductId = 37
+                        },
+                        new
+                        {
+                            Id = 143,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 144,
+                            ProductId = 37
+                        },
+                        new
+                        {
+                            Id = 144,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 145,
+                            ProductId = 38
+                        },
+                        new
+                        {
+                            Id = 145,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 146,
+                            ProductId = 38
+                        },
+                        new
+                        {
+                            Id = 146,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 147,
+                            ProductId = 38
+                        },
+                        new
+                        {
+                            Id = 147,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 148,
+                            ProductId = 38
+                        },
+                        new
+                        {
+                            Id = 148,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 149,
+                            ProductId = 39
+                        },
+                        new
+                        {
+                            Id = 149,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 150,
+                            ProductId = 39
+                        },
+                        new
+                        {
+                            Id = 150,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 151,
+                            ProductId = 39
+                        },
+                        new
+                        {
+                            Id = 151,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 152,
+                            ProductId = 39
+                        },
+                        new
+                        {
+                            Id = 152,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 153,
+                            ProductId = 40
+                        },
+                        new
+                        {
+                            Id = 153,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 154,
+                            ProductId = 40
+                        },
+                        new
+                        {
+                            Id = 154,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 155,
+                            ProductId = 40
+                        },
+                        new
+                        {
+                            Id = 155,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 156,
+                            ProductId = 40
+                        },
+                        new
+                        {
+                            Id = 156,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 157,
+                            ProductId = 41
+                        },
+                        new
+                        {
+                            Id = 157,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 158,
+                            ProductId = 41
+                        },
+                        new
+                        {
+                            Id = 158,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 159,
+                            ProductId = 41
+                        },
+                        new
+                        {
+                            Id = 159,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 160,
+                            ProductId = 41
+                        },
+                        new
+                        {
+                            Id = 160,
+                            DisplayOrder = 3,
+                            IsMain = true,
+                            MediaId = 161,
+                            ProductId = 42
+                        },
+                        new
+                        {
+                            Id = 161,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 162,
+                            ProductId = 42
+                        },
+                        new
+                        {
+                            Id = 162,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 163,
+                            ProductId = 42
+                        },
+                        new
+                        {
+                            Id = 163,
+                            DisplayOrder = 3,
+                            IsMain = false,
+                            MediaId = 163,
+                            ProductId = 42
                         });
                 });
 

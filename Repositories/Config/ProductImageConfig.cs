@@ -12,11 +12,15 @@ namespace Repositories.Config
             builder.HasData(
                  new ProductImage() { Id = 1, ProductId = 1, MediaId = 1, IsMain = true, DisplayOrder = 1 },
                  new ProductImage() { Id = 2, ProductId = 1, MediaId = 2, IsMain = false, DisplayOrder = 2 },
+
+
                  new ProductImage() { Id = 3, ProductId = 2, MediaId = 4, IsMain = true, DisplayOrder = 3 },
                  new ProductImage() { Id = 4, ProductId = 2, MediaId = 5, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 5, ProductId = 2, MediaId = 6, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 6, ProductId = 2, MediaId = 7, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 7, ProductId = 2, MediaId = 8, IsMain = false, DisplayOrder = 3 },
+
+
                  new ProductImage() { Id = 8, ProductId = 1, MediaId = 9, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 9, ProductId = 1, MediaId = 10, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 10, ProductId = 1, MediaId = 11, IsMain = false, DisplayOrder = 3 },
@@ -155,7 +159,81 @@ namespace Repositories.Config
                  new ProductImage() { Id = 104, ProductId = 28, MediaId = 105, IsMain = true, DisplayOrder = 3 },
                  new ProductImage() { Id = 105, ProductId = 28, MediaId = 106, IsMain = false, DisplayOrder = 3 },
                  new ProductImage() { Id = 106, ProductId = 28, MediaId = 107, IsMain = false, DisplayOrder = 3 },
-                 new ProductImage() { Id = 107, ProductId = 28, MediaId = 108, IsMain = false, DisplayOrder = 3 }
+                 new ProductImage() { Id = 107, ProductId = 28, MediaId = 108, IsMain = false, DisplayOrder = 3 },
+                 //Motorlu Giyotin Cam
+                 new ProductImage() { Id = 108, ProductId = 29, MediaId = 109, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 109, ProductId = 29, MediaId = 110, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 110, ProductId = 29, MediaId = 111, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 111, ProductId = 29, MediaId = 112, IsMain = false, DisplayOrder = 3 },
+                 //ustte-toplanır-giyotin-cam
+                 new ProductImage() { Id = 112, ProductId = 30, MediaId = 113, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 113, ProductId = 30, MediaId = 114, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 114, ProductId = 30, MediaId = 115, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 115, ProductId = 30, MediaId = 116, IsMain = false, DisplayOrder = 3 },
+                 //silinebilir-giyotin-cam
+                 new ProductImage() { Id = 116, ProductId = 31, MediaId = 117, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 117, ProductId = 31, MediaId = 118, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 118, ProductId = 31, MediaId = 119, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 119, ProductId = 31, MediaId = 120, IsMain = false, DisplayOrder = 3 },
+                 //isi-camli-giyotin
+                 new ProductImage() { Id = 120, ProductId = 32, MediaId = 121, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 121, ProductId = 32, MediaId = 122, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 122, ProductId = 32, MediaId = 123, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 123, ProductId = 32, MediaId = 124, IsMain = false, DisplayOrder = 3 },
+                 //tek-camli-giyotin
+                 new ProductImage() { Id = 124, ProductId = 33, MediaId = 125, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 125, ProductId = 33, MediaId = 126, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 126, ProductId = 33, MediaId = 127, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 127, ProductId = 33, MediaId = 128, IsMain = false, DisplayOrder = 3 },
+                 //kumandali-giyotin-cam
+                 new ProductImage() { Id = 128, ProductId = 34, MediaId = 129, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 129, ProductId = 34, MediaId = 130, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 130, ProductId = 34, MediaId = 131, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 131, ProductId = 34, MediaId = 132, IsMain = false, DisplayOrder = 3 },
+                 //katlanir-cam-balkon
+                 new ProductImage() { Id = 132, ProductId = 35, MediaId = 133, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 133, ProductId = 35, MediaId = 134, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 134, ProductId = 35, MediaId = 135, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 135, ProductId = 35, MediaId = 136, IsMain = false, DisplayOrder = 3 },
+                 //acilir-cam-tavan-sistemleri
+                 new ProductImage() { Id = 136, ProductId = 36, MediaId = 137, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 137, ProductId = 36, MediaId = 138, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 138, ProductId = 36, MediaId = 139, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 139, ProductId = 36, MediaId = 140, IsMain = false, DisplayOrder = 3 },
+
+                 //cam-cati-sistemleri
+                 new ProductImage() { Id = 140, ProductId = 37, MediaId = 141, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 141, ProductId = 37, MediaId = 142, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 142, ProductId = 37, MediaId = 143, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 143, ProductId = 37, MediaId = 144, IsMain = false, DisplayOrder = 3 },
+                 //motorlu-tente
+                 new ProductImage() { Id = 144, ProductId = 38, MediaId = 145, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 145, ProductId = 38, MediaId = 146, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 146, ProductId = 38, MediaId = 147, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 147, ProductId = 38, MediaId = 148, IsMain = false, DisplayOrder = 3 },
+                 //sabit-tente
+                 new ProductImage() { Id = 148, ProductId = 39, MediaId = 149, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 149, ProductId = 39, MediaId = 150, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 150, ProductId = 39, MediaId = 151, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 151, ProductId = 39, MediaId = 152, IsMain = false, DisplayOrder = 3 },
+                 //kumandali-tente
+                 new ProductImage() { Id = 152, ProductId = 40, MediaId = 153, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 153, ProductId = 40, MediaId = 154, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 154, ProductId = 40, MediaId = 155, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 155, ProductId = 40, MediaId = 156, IsMain = false, DisplayOrder = 3 },
+                 //rolling-roof-tente
+                 new ProductImage() { Id = 156, ProductId = 41, MediaId = 157, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 157, ProductId = 41, MediaId = 158, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 158, ProductId = 41, MediaId = 159, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 159, ProductId = 41, MediaId = 160, IsMain = false, DisplayOrder = 3 },
+                 //bio-klimatik-tente
+                 new ProductImage() { Id = 160, ProductId = 42, MediaId = 161, IsMain = true, DisplayOrder = 3 },
+                 new ProductImage() { Id = 161, ProductId = 42, MediaId = 162, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 162, ProductId = 42, MediaId = 163, IsMain = false, DisplayOrder = 3 },
+                 new ProductImage() { Id = 163, ProductId = 42, MediaId = 163, IsMain = false, DisplayOrder = 3 }
+
+
+
 
                 );
         }

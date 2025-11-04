@@ -147,7 +147,81 @@ namespace Repositories.Config
                 new Media() { Id = 105, FileName = "surgulu-sineklik-1.jpg", Url = "/assets/img/properties/surgulu-sineklik-1.jpg", AltText = "surgulu-sineklik-1", ContentType = "image/jpeg" },
                 new Media() { Id = 106, FileName = "surgulu-sineklik-2.jpg", Url = "/assets/img/properties/surgulu-sineklik-2.jpg", AltText = "surgulu-sineklik-2", ContentType = "image/jpeg" },
                 new Media() { Id = 107, FileName = "surgulu-sineklik-3.jpg", Url = "/assets/img/properties/surgulu-sineklik-3.jpg", AltText = "surgulu-sineklik-3", ContentType = "image/jpeg" },
-                new Media() { Id = 108, FileName = "surgulu-sineklik-4.jpg", Url = "/assets/img/properties/surgulu-sineklik-4.jpg", AltText = "surgulu-sineklik-4", ContentType = "image/jpeg" }
+                new Media() { Id = 108, FileName = "surgulu-sineklik-4.jpg", Url = "/assets/img/properties/surgulu-sineklik-4.jpg", AltText = "surgulu-sineklik-4", ContentType = "image/jpeg" },
+
+
+                //Motorlu Giyotin Cam
+                new Media() { Id = 109, FileName = "motorlu-giyotin-cam-1.jpg", Url = "/assets/img/properties/motorlu-giyotin-cam-1.jpg", AltText = "motorlu-giyotin-cam-1", ContentType = "image/jpeg" },
+                new Media() { Id = 110, FileName = "motorlu-giyotin-cam-2.jpg", Url = "/assets/img/properties/motorlu-giyotin-cam-2.jpg", AltText = "motorlu-giyotin-cam-2", ContentType = "image/jpeg" },
+                new Media() { Id = 111, FileName = "motorlu-giyotin-cam-3.jpg", Url = "/assets/img/properties/motorlu-giyotin-cam-3.jpg", AltText = "motorlu-giyotin-cam-3", ContentType = "image/jpeg" },
+                new Media() { Id = 112, FileName = "motorlu-giyotin-cam-4.jpg", Url = "/assets/img/properties/motorlu-giyotin-cam-4.jpg", AltText = "motorlu-giyotin-cam-4", ContentType = "image/jpeg" },
+                //ustte-toplanır-giyotin-cam
+                new Media() { Id = 113, FileName = "ustte-toplanır-giyotin-cam-1.jpg", Url = "/assets/img/properties/ustte-toplanır-giyotin-cam-1.jpg", AltText = "ustte-toplanır-giyotin-cam-1", ContentType = "image/jpeg" },
+                new Media() { Id = 114, FileName = "ustte-toplanır-giyotin-cam-2.jpg", Url = "/assets/img/properties/ustte-toplanır-giyotin-cam-2.jpg", AltText = "ustte-toplanır-giyotin-cam-2", ContentType = "image/jpeg" },
+                new Media() { Id = 115, FileName = "ustte-toplanır-giyotin-cam-3.jpg", Url = "/assets/img/properties/ustte-toplanır-giyotin-cam-3.jpg", AltText = "ustte-toplanır-giyotin-cam-3", ContentType = "image/jpeg" },
+                new Media() { Id = 116, FileName = "ustte-toplanır-giyotin-cam-4.jpg", Url = "/assets/img/properties/ustte-toplanır-giyotin-cam-4.jpg", AltText = "ustte-toplanır-giyotin-cam-4", ContentType = "image/jpeg" },
+                //silinebilir-giyotin-cam
+                new Media() { Id = 117, FileName = "silinebilir-giyotin-cam-1.jpg", Url = "/assets/img/properties/silinebilir-giyotin-cam-1.jpg", AltText = "silinebilir-giyotin-cam-1", ContentType = "image/jpeg" },
+                new Media() { Id = 118, FileName = "silinebilir-giyotin-cam-2.jpg", Url = "/assets/img/properties/silinebilir-giyotin-cam-2.jpg", AltText = "silinebilir-giyotin-cam-2", ContentType = "image/jpeg" },
+                new Media() { Id = 119, FileName = "silinebilir-giyotin-cam-3.jpg", Url = "/assets/img/properties/silinebilir-giyotin-cam-3.jpg", AltText = "silinebilir-giyotin-cam-3", ContentType = "image/jpeg" },
+                new Media() { Id = 120, FileName = "silinebilir-giyotin-cam-4.jpg", Url = "/assets/img/properties/silinebilir-giyotin-cam-4.jpg", AltText = "silinebilir-giyotin-cam-4", ContentType = "image/jpeg" },
+                //isi-camli-giyotin
+                new Media() { Id = 121, FileName = "isi-camli-giyotin-1.jpg", Url = "/assets/img/properties/isi-camli-giyotin-1.jpg", AltText = "isi-camli-giyotin-1", ContentType = "image/jpeg" },
+                new Media() { Id = 122, FileName = "isi-camli-giyotin-2.jpg", Url = "/assets/img/properties/isi-camli-giyotin-2.jpg", AltText = "isi-camli-giyotin-2", ContentType = "image/jpeg" },
+                new Media() { Id = 123, FileName = "isi-camli-giyotin-3.jpg", Url = "/assets/img/properties/isi-camli-giyotin-3.jpg", AltText = "isi-camli-giyotin-3", ContentType = "image/jpeg" },
+                new Media() { Id = 124, FileName = "isi-camli-giyotin-4.jpg", Url = "/assets/img/properties/isi-camli-giyotin-4.jpg", AltText = "isi-camli-giyotin-4", ContentType = "image/jpeg" },
+                //tek-camli-giyotin
+                new Media() { Id = 125, FileName = "tek-camli-giyotin-1.jpg", Url = "/assets/img/properties/tek-camli-giyotin-1.jpg", AltText = "tek-camli-giyotin-1", ContentType = "image/jpeg" },
+                new Media() { Id = 126, FileName = "tek-camli-giyotin-2.jpg", Url = "/assets/img/properties/tek-camli-giyotin-2.jpg", AltText = "tek-camli-giyotin-2", ContentType = "image/jpeg" },
+                new Media() { Id = 127, FileName = "tek-camli-giyotin-3.jpg", Url = "/assets/img/properties/tek-camli-giyotin-3.jpg", AltText = "tek-camli-giyotin-3", ContentType = "image/jpeg" },
+                new Media() { Id = 128, FileName = "tek-camli-giyotin-4.jpg", Url = "/assets/img/properties/tek-camli-giyotin-4.jpg", AltText = "tek-camli-giyotin-4", ContentType = "image/jpeg" },
+                //kumandali-giyotin-cam
+                new Media() { Id = 129, FileName = "tek-camli-giyotin-4.jpg", Url = "/assets/img/properties/tek-camli-giyotin-4.jpg", AltText = "tek-camli-giyotin-4", ContentType = "image/jpeg" },
+                new Media() { Id = 130, FileName = "tek-camli-giyotin-4.jpg", Url = "/assets/img/properties/tek-camli-giyotin-4.jpg", AltText = "tek-camli-giyotin-4", ContentType = "image/jpeg" },
+                new Media() { Id = 131, FileName = "tek-camli-giyotin-4.jpg", Url = "/assets/img/properties/tek-camli-giyotin-4.jpg", AltText = "tek-camli-giyotin-4", ContentType = "image/jpeg" },
+                new Media() { Id = 132, FileName = "tek-camli-giyotin-4.jpg", Url = "/assets/img/properties/tek-camli-giyotin-4.jpg", AltText = "tek-camli-giyotin-4", ContentType = "image/jpeg" },
+                //katlanir-cam-balkon
+                new Media() { Id = 133, FileName = "katlanir-cam-balkon-1.jpg", Url = "/assets/img/properties/katlanir-cam-balkon-1.jpg", AltText = "katlanir-cam-balkon-1", ContentType = "image/jpeg" },
+                new Media() { Id = 134, FileName = "katlanir-cam-balkon-2.jpg", Url = "/assets/img/properties/katlanir-cam-balkon-2.jpg", AltText = "katlanir-cam-balkon-2", ContentType = "image/jpeg" },
+                new Media() { Id = 135, FileName = "katlanir-cam-balkon-3.jpg", Url = "/assets/img/properties/katlanir-cam-balkon-3.jpg", AltText = "katlanir-cam-balkon-3", ContentType = "image/jpeg" },
+                new Media() { Id = 136, FileName = "katlanir-cam-balkon-4.jpg", Url = "/assets/img/properties/katlanir-cam-balkon-4.jpg", AltText = "katlanir-cam-balkon-4", ContentType = "image/jpeg" },
+                //acilir-cam-tavan-sistemleri
+                new Media() { Id = 137, FileName = "acilir-cam-tavan-sistemleri-1.jpg", Url = "/assets/img/properties/acilir-cam-tavan-sistemleri-1.jpg", AltText = "acilir-cam-tavan-sistemleri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 138, FileName = "acilir-cam-tavan-sistemleri-2.jpg", Url = "/assets/img/properties/acilir-cam-tavan-sistemleri-2.jpg", AltText = "acilir-cam-tavan-sistemleri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 139, FileName = "acilir-cam-tavan-sistemleri-3.jpg", Url = "/assets/img/properties/acilir-cam-tavan-sistemleri-3.jpg", AltText = "acilir-cam-tavan-sistemleri-3", ContentType = "image/jpeg" },
+                new Media() { Id = 140, FileName = "acilir-cam-tavan-sistemleri-4.jpg", Url = "/assets/img/properties/acilir-cam-tavan-sistemleri-4.jpg", AltText = "acilir-cam-tavan-sistemleri-4", ContentType = "image/jpeg" },
+                //cam-cati-sistemleri
+                new Media() { Id = 141, FileName = "cam-cati-sistemleri-1.jpg", Url = "/assets/img/properties/cam-cati-sistemleri-1.jpg", AltText = "cam-cati-sistemleri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 142, FileName = "cam-cati-sistemleri-2.jpg", Url = "/assets/img/properties/cam-cati-sistemleri-2.jpg", AltText = "cam-cati-sistemleri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 143, FileName = "cam-cati-sistemleri-3.jpg", Url = "/assets/img/properties/cam-cati-sistemleri-3.jpg", AltText = "cam-cati-sistemleri-3", ContentType = "image/jpeg" },
+                new Media() { Id = 144, FileName = "cam-cati-sistemleri-4.jpg", Url = "/assets/img/properties/cam-cati-sistemleri-4.jpg", AltText = "cam-cati-sistemleri-4", ContentType = "image/jpeg" },
+                //motorlu-tente
+                new Media() { Id = 145, FileName = "motorlu-tente-1.jpg", Url = "/assets/img/properties/motorlu-tente-1.jpg", AltText = "motorlu-tente-1", ContentType = "image/jpeg" },
+                new Media() { Id = 146, FileName = "motorlu-tente-2.jpg", Url = "/assets/img/properties/motorlu-tente-2.jpg", AltText = "motorlu-tente-2", ContentType = "image/jpeg" },
+                new Media() { Id = 147, FileName = "motorlu-tente-3.jpg", Url = "/assets/img/properties/motorlu-tente-3.jpg", AltText = "motorlu-tente-3", ContentType = "image/jpeg" },
+                new Media() { Id = 148, FileName = "motorlu-tente-4.jpg", Url = "/assets/img/properties/motorlu-tente-4.jpg", AltText = "motorlu-tente-4", ContentType = "image/jpeg" },
+                //sabit-tente
+                new Media() { Id = 149, FileName = "sabit-tente-1.jpg", Url = "/assets/img/properties/sabit-tente-1.jpg", AltText = "sabit-tente-1", ContentType = "image/jpeg" },
+                new Media() { Id = 150, FileName = "sabit-tente-2.jpg", Url = "/assets/img/properties/sabit-tente-2.jpg", AltText = "sabit-tente-2", ContentType = "image/jpeg" },
+                new Media() { Id = 151, FileName = "sabit-tente-3.jpg", Url = "/assets/img/properties/sabit-tente-3.jpg", AltText = "sabit-tente-3", ContentType = "image/jpeg" },
+                new Media() { Id = 152, FileName = "sabit-tente-4.jpg", Url = "/assets/img/properties/sabit-tente-4.jpg", AltText = "sabit-tente-4", ContentType = "image/jpeg" },
+                //kumandali-tente
+                new Media() { Id = 153, FileName = "kumandali-tente-1.jpg", Url = "/assets/img/properties/kumandali-tente-1.jpg", AltText = "kumandali-tente-1", ContentType = "image/jpeg" },
+                new Media() { Id = 154, FileName = "kumandali-tente-2.jpg", Url = "/assets/img/properties/kumandali-tente-2.jpg", AltText = "kumandali-tente-2", ContentType = "image/jpeg" },
+                new Media() { Id = 155, FileName = "kumandali-tente-3.jpg", Url = "/assets/img/properties/kumandali-tente-3.jpg", AltText = "kumandali-tente-3", ContentType = "image/jpeg" },
+                new Media() { Id = 156, FileName = "kumandali-tente-4.jpg", Url = "/assets/img/properties/kumandali-tente-4.jpg", AltText = "kumandali-tente-4", ContentType = "image/jpeg" },
+                //rolling-roof-tente
+                new Media() { Id = 157, FileName = "rolling-roof-tente-1.jpg", Url = "/assets/img/properties/rolling-roof-tente-1.jpg", AltText = "rolling-roof-tente-1", ContentType = "image/jpeg" },
+                new Media() { Id = 158, FileName = "rolling-roof-tente-2.jpg", Url = "/assets/img/properties/rolling-roof-tente-2.jpg", AltText = "rolling-roof-tente-2", ContentType = "image/jpeg" },
+                new Media() { Id = 159, FileName = "rolling-roof-tente-3.jpg", Url = "/assets/img/properties/rolling-roof-tente-3.jpg", AltText = "rolling-roof-tente-3", ContentType = "image/jpeg" },
+                new Media() { Id = 160, FileName = "rolling-roof-tente-4.jpg", Url = "/assets/img/properties/rolling-roof-tente-4.jpg", AltText = "rolling-roof-tente-4", ContentType = "image/jpeg" },
+                //bio-klimatik-tente
+                new Media() { Id = 161, FileName = "bio-klimatik-tente-1.jpg", Url = "/assets/img/properties/bio-klimatik-tente-1.jpg", AltText = "bio-klimatik-tente-1", ContentType = "image/jpeg" },
+                new Media() { Id = 162, FileName = "bio-klimatik-tente-2.jpg", Url = "/assets/img/properties/bio-klimatik-tente-2.jpg", AltText = "bio-klimatik-tente-2", ContentType = "image/jpeg" },
+                new Media() { Id = 163, FileName = "bio-klimatik-tente-3.jpg", Url = "/assets/img/properties/bio-klimatik-tente-3.jpg", AltText = "bio-klimatik-tente-3", ContentType = "image/jpeg" },
+                new Media() { Id = 164, FileName = "bio-klimatik-tente-4.jpg", Url = "/assets/img/properties/bio-klimatik-tente-4.jpg", AltText = "bio-klimatik-tente-4", ContentType = "image/jpeg" }
+
+
 
 
                 );
