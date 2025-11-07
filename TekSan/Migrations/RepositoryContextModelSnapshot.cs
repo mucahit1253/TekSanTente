@@ -1440,6 +1440,158 @@ namespace TekSan.Migrations
                             ContentType = "image/jpeg",
                             FileName = "bio-klimatik-tente-4.jpg",
                             Url = "/assets/img/properties/bio-klimatik-tente-4.jpg"
+                        },
+                        new
+                        {
+                            Id = 165,
+                            AltText = "Pergola-Tente-Teknik-Ozellikleri",
+                            ContentType = "image/jpeg",
+                            FileName = "Pergola-Tente-Teknik-Ozellikleri.jpg",
+                            Url = "/assets/img/service/teknikozellik/Pergola-Tente-Teknik-Ozellikleri.jpg"
+                        },
+                        new
+                        {
+                            Id = 166,
+                            AltText = "blackout-pergola-tente-kumaşı-1",
+                            ContentType = "image/jpeg",
+                            FileName = "blackout-pergola-tente-kumaşı-1.jpg",
+                            Url = "/assets/img/service/blackout/blackout-pergola-tente-kumaşı-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 167,
+                            AltText = "blackout-pergola-tente-kumaşı-2",
+                            ContentType = "image/jpeg",
+                            FileName = "blackout-pergola-tente-kumaşı-2.jpg",
+                            Url = "/assets/img/service/blackout/blackout-pergola-tente-kumaşı-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 168,
+                            AltText = "blackout-pergola-tente-kumaşı-3",
+                            ContentType = "image/jpeg",
+                            FileName = "blackout-pergola-tente-kumaşı-3.jpg",
+                            Url = "/assets/img/service/blackout/blackout-pergola-tente-kumaşı-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 169,
+                            AltText = "pergolateknik-1",
+                            ContentType = "image/jpeg",
+                            FileName = "pergolateknik-1.jpg",
+                            Url = "/assets/img/service/pergolateknik/pergolateknik-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 170,
+                            AltText = "pergolateknik-2",
+                            ContentType = "image/jpeg",
+                            FileName = "pergolateknik-2.jpg",
+                            Url = "/assets/img/service/pergolateknik/pergolateknik-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 171,
+                            AltText = "pergolateknik-3",
+                            ContentType = "image/jpeg",
+                            FileName = "pergolateknik-3.jpg",
+                            Url = "/assets/img/service/pergolateknik/pergolateknik-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 172,
+                            AltText = "tente-imalatı-1",
+                            ContentType = "image/jpeg",
+                            FileName = "tente-imalatı-1.jpg",
+                            Url = "/assets/img/service/tenteimalati/tente-imalatı-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 173,
+                            AltText = "tente-imalatı-2",
+                            ContentType = "image/jpeg",
+                            FileName = "tente-imalatı-2.jpg",
+                            Url = "/assets/img/service/tenteimalati/tente-imalatı-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 174,
+                            AltText = "tente-imalatı-3",
+                            ContentType = "image/jpeg",
+                            FileName = "tente-imalatı-3.jpg",
+                            Url = "/assets/img/service/tenteimalati/tente-imalatı-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 175,
+                            AltText = "kullanim-ozellikleri-1",
+                            ContentType = "image/jpeg",
+                            FileName = "kullanim-ozellikleri-1.jpg",
+                            Url = "/assets/img/service/kullanim-ozellikleri/kullanim-ozellikleri-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 176,
+                            AltText = "kullanim-ozellikleri-2",
+                            ContentType = "image/jpeg",
+                            FileName = "kullanim-ozellikleri-2.jpg",
+                            Url = "/assets/img/service/kullanim-ozellikleri/kullanim-ozellikleri-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 177,
+                            AltText = "kullanim-ozellikleri-3",
+                            ContentType = "image/jpeg",
+                            FileName = "kullanim-ozellikleri-3.jpg",
+                            Url = "/assets/img/service/kullanim-ozellikleri/kullanim-ozellikleri-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 178,
+                            AltText = "projeler-1",
+                            ContentType = "image/jpeg",
+                            FileName = "projeler-1.jpg",
+                            Url = "/assets/img/service/projeler/projeler-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 179,
+                            AltText = "projeler-2",
+                            ContentType = "image/jpeg",
+                            FileName = "projeler-2.jpg",
+                            Url = "/assets/img/service/projeler/projeler-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 180,
+                            AltText = "projeler-3",
+                            ContentType = "image/jpeg",
+                            FileName = "projeler-3.jpg",
+                            Url = "/assets/img/service/projeler/projeler-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 181,
+                            AltText = "faydali-bilgiler-1",
+                            ContentType = "image/jpeg",
+                            FileName = "faydali-bilgiler-1.jpg",
+                            Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 182,
+                            AltText = "faydali-bilgiler-2",
+                            ContentType = "image/jpeg",
+                            FileName = "faydali-bilgiler-2.jpg",
+                            Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 183,
+                            AltText = "faydali-bilgiler-3",
+                            ContentType = "image/jpeg",
+                            FileName = "faydali-bilgiler-3.jpg",
+                            Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-3.jpg"
                         });
                 });
 
@@ -3188,14 +3340,14 @@ namespace TekSan.Migrations
                         new
                         {
                             Id = 2,
-                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Description = "Yüksek mukametli alimunyum alışımlı yapılmış elektros statik toz boya ile boyalı iskelet\r\nHer türlü hava koşuluna dayanıklı su geçirmeme özelliğine sahip Pvc bloklardan oluşan yüzey Malzemesi 850 gram alev yürütmeme özelliğine sahip blockout branda\r\n120 x 80 mm ölçülerinde taşıyıcılar 150 x 70 mm ray Sistemleri Uzaktan kumandalı Alman Becker motor desteği Gergi için özel olarak üretilmiş Alman Triger kayış sistemi İtalyan rulman makara sistemi özel estetik görünümlü alimunyum yağmur ve dere inişleri ile su taşıyıcı giderleri Ürünlerimiz 5 yıl garantili",
                             Name = "Teknik Özellikler",
                             Slug = "teknik-ozellikler"
                         },
                         new
                         {
                             Id = 3,
-                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Description = "Pergola Tente Kumaşı Özellikleri ,-25 soğuğa,+70 sıcağa ve yağmura dayanıklı çadır, kaliteli tente kumaşları, uzman işçiliği ile müşterilerine uygun fiyatlarla.\r\ndilmesinin nedeni; tentenin güneşi ışıklarını maksimum derecede kesmesi ve tente altında kalan yaşam mahalini oldukça serin tutması olarak gösterilebilir. Kumaş kendiliğinden üç boyutlu bir desene sahip olması ve sıkı dokunuşlu oluşundan diğer kumaşlardan ayrılmaktadır. Özellikle raylı tente imalarında kullanılan bir kumaştır. Çok fazla renk seçimi sunmaz, fakat uzun ömürlüdür. Güneş ve yağmur geçirmez, Koku yapmaz, yosunlanmaz. Elbette fiyat olarak diğer türlere göre oldukça pahalıdır.",
                             Name = "Blackout Pergola Tente Kumaşı",
                             ParentId = 2,
                             Slug = "blackout-pergola-tente-kumasi"
@@ -3203,7 +3355,7 @@ namespace TekSan.Migrations
                         new
                         {
                             Id = 4,
-                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Description = "Sistemde kullanılacak tüm aluminyum ekstrüzyon profillerin 6063 T6 alaşımı ile ,ISO 9001:2008, Alüminyum ve alaşımları , eloksal ,toz boya kaplaması üretimi ve satışı kalite yönetim sistemi altında EN 15088 Alüminyum ve Alüminyum Alaşımları-Yapım işleri için yapısal mamüller muayene ve teslim için teknik şartlar ,EN755-1 Alüminyum ve Alüminyum alaşımları Ekstrüzyonla imal edilmiş Tellik Çubuk/Çubuk, boru ve profiller, TS EN 12020-1 , EN AW-6063 alaşımlarından ekstrüzyon ile imal edilmiş hassas profiller için teknik muayene ve teslim şartları , TS EN 12020-2 , EN AW-6063 alaşımlarından ekstrüzyon ile imal edilmiş hassas profiller için boyut ve şekil toleransları , normlarına uygunluğu üretici veya aluminyum ekstrüzyon tedarikçi firma tarafından geçerli uygunluk belgesi ile belgelendirilmelidir.\r\nSistemin Alüminyum Ekstrüzyon Profillerinde Uygulanacak Elektrostatik toz boya işleminin minimum 120 mikron kalınlıkta ve ‘’Qualicoat’’ kalite sistem markalı , uygulama proseslerine uygunluğu yine üretici veya aluminyum ektrüzyon tedarikçi firma tarafından uygunluğu geçerli uygunluk belgesi ile belgelendirilmelidir.",
                             Name = "Pergola Tente Teknik Özellikleri",
                             ParentId = 2,
                             Slug = "pergola-tente-teknik-ozellikleri"
@@ -3211,7 +3363,7 @@ namespace TekSan.Migrations
                         new
                         {
                             Id = 5,
-                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Description = "TekSan Tente, dış mekânlarda konforu, estetiği ve dayanıklılığı bir araya getiren Pergola Tente Sistemleri ile yaşam alanlarınıza değer katar. Modern mimariyle uyumlu, yüksek kaliteli malzemelerden üretilen pergola sistemlerimiz; otel, restoran, kafe, teras, bahçe ve veranda gibi alanlarda dört mevsim kesintisiz kullanım imkânı sunar.",
                             Name = "Pergola Tente İmalatı Çeşitleri",
                             ParentId = 2,
                             Slug = "pergola-tente-imalati-cesitleri"
@@ -3219,21 +3371,21 @@ namespace TekSan.Migrations
                         new
                         {
                             Id = 6,
-                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Description = "TekSan Tente sistemleri, her mevsimde konforlu ve estetik yaşam alanları sunmak için tasarlanmıştır. Yüksek kalite standartlarında üretilen tente sistemlerimiz, dış mekanlarınızı hem koruyucu hem de dekoratif bir alana dönüştürür.Dayanıklı Malzeme Yapısı: Alüminyum, galvanizli çelik ve paslanmaz bağlantı elemanlarıyla uzun ömürlü kullanım sağlar.\r\n\r\nSu ve Güneş Direnci: UV korumalı, su geçirmez ithal kumaşlar sayesinde güneş ışınlarına ve yağmura karşı tam koruma sunar.\r\n\r\nMotorlu ve Manuel Seçenekler: Uzaktan kumandalı veya manuel açma-kapama sistemleriyle kolay kullanım imkânı.\r\n\r\nEstetik Tasarım: Modern çizgilere sahip, her mekâna uyum sağlayan farklı renk ve model seçenekleriyle üretim yapılır.\r\n\r\nRüzgâr Dayanımı: Yüksek rüzgâr dayanımı için güçlendirilmiş taşıyıcı profiller ve kaliteli bağlantı sistemleri kullanılır.\r\n\r\nBakım Kolaylığı: Kolay temizlenebilir kumaş ve modüler sistem yapısı sayesinde uzun süre sorunsuz kullanım.\r\n\r\nOpsiyonel Donanımlar: LED aydınlatma, ısıtıcı, sensör sistemleri ve otomatik kontrol panelleriyle akıllı kullanım deneyimi.",
                             Name = "Kullanım Özellikleri",
                             Slug = "kullanim-ozellikleri"
                         },
                         new
                         {
                             Id = 7,
-                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Description = "Yapı ruhsatı gerektirmeden uygulanabilen tamamı otomatik açılır &\r\nkapanır şekilde tasarlanan, ergonomik ve fonksiyonel bir tente sistemidir. Pergola Tente\r\n\r\nGeçmişten günümüze yapmış olduğumuz projelerimizi sosyal medya hesaplarımızdan ve sitemizden paylaşmaktayız.. Her daim müşteri desteği sağlıyoruz ve ayrıca müşterilerimiz için çok yüksek düzeyde bir memnuniyet garantisi veriyoruz. Bir sorunuz varsa daha fazla ayrıntı için  numarasından bizimle iletişim kurmaktan çekinmeyin.\r\n\r\nArtık mekânlarınız, olması gerektiği gibi, kullanışlı ve keyifli. Sosyal alan veya evsel lüks ve konforunu arttırabilirsiniz. Pergola tentelerimiz küçük ve büyük alanlar, bağlantısız veya duvara monte edilmiş şekilde tasarlanmışlardır ve çeşitli yenilikçi alüminyum tasarımlarında mevcutturlar. Pergola Tente Yetkili Servis ",
                             Name = "Projeler",
                             Slug = "projeler"
                         },
                         new
                         {
                             Id = 8,
-                            Description = "Firmamız satış dışında Teknik Servisleri montaj hizmeti de vermektedir. Ayrıca kurulmuş olan yapıları yeni yerinize en uygun şekilde uyarlayarak kurulum hizmetini de sunmaktayız.",
+                            Description = "Pergola Tente Faydalı Bilgiler, deri, Pvc, dokuma bezi vb. Malzemeden yapılarak tutturulan, taşınabilir barınak. Modern tipteki çadırlar bir hayli lüks olabilmekle birlikte çoğu durumda en ucuz konaklama biçimi. Genellikle güneşten korunmak için bir yerin üzerine gerilen bez, naylon vb.nden yapılmış örtü.\r\n\r\n",
                             Name = "Faydalı Bilgiler",
                             Slug = "faydali-bilgiler"
                         });
@@ -3267,6 +3419,120 @@ namespace TekSan.Migrations
                             Id = 1,
                             MediaId = 3,
                             ServiceId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            MediaId = 165,
+                            ServiceId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            MediaId = 166,
+                            ServiceId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            MediaId = 167,
+                            ServiceId = 3
+                        },
+                        new
+                        {
+                            Id = 5,
+                            MediaId = 168,
+                            ServiceId = 3
+                        },
+                        new
+                        {
+                            Id = 6,
+                            MediaId = 169,
+                            ServiceId = 4
+                        },
+                        new
+                        {
+                            Id = 7,
+                            MediaId = 170,
+                            ServiceId = 4
+                        },
+                        new
+                        {
+                            Id = 8,
+                            MediaId = 171,
+                            ServiceId = 4
+                        },
+                        new
+                        {
+                            Id = 9,
+                            MediaId = 172,
+                            ServiceId = 5
+                        },
+                        new
+                        {
+                            Id = 10,
+                            MediaId = 173,
+                            ServiceId = 5
+                        },
+                        new
+                        {
+                            Id = 11,
+                            MediaId = 174,
+                            ServiceId = 5
+                        },
+                        new
+                        {
+                            Id = 12,
+                            MediaId = 175,
+                            ServiceId = 6
+                        },
+                        new
+                        {
+                            Id = 13,
+                            MediaId = 176,
+                            ServiceId = 6
+                        },
+                        new
+                        {
+                            Id = 14,
+                            MediaId = 177,
+                            ServiceId = 6
+                        },
+                        new
+                        {
+                            Id = 15,
+                            MediaId = 178,
+                            ServiceId = 7
+                        },
+                        new
+                        {
+                            Id = 16,
+                            MediaId = 179,
+                            ServiceId = 7
+                        },
+                        new
+                        {
+                            Id = 17,
+                            MediaId = 180,
+                            ServiceId = 7
+                        },
+                        new
+                        {
+                            Id = 18,
+                            MediaId = 181,
+                            ServiceId = 8
+                        },
+                        new
+                        {
+                            Id = 19,
+                            MediaId = 182,
+                            ServiceId = 8
+                        },
+                        new
+                        {
+                            Id = 20,
+                            MediaId = 183,
+                            ServiceId = 8
                         });
                 });
 

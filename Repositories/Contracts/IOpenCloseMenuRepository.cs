@@ -10,6 +10,8 @@ namespace Repositories.Contracts
         IQueryable<Service> GetAllService(bool trackChanges);
         public string? GetServiceFirstImageUrl(int serviceId);
         Service? FindById(int serviceId, bool trackChanges);
+        Service? GetServiceWithImagesAndDescription(string slug, bool trackChanges);
+
 
     }
 }

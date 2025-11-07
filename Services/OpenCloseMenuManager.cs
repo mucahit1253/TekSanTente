@@ -28,6 +28,12 @@ namespace Services
             return query;
         }
 
+        public Service? GetServiceWithImagesAndDescription(string slug, bool trackChanges)
+        {
+            var query = _manager.OpenCloseMenu.GetServiceWithImagesAndDescription(slug, trackChanges);
+            return query;
+        }
+
         IEnumerable<Service> IOpenCloseMenuService.GetOpenCloseMenuId(int id, bool trackChanges)
         {
             var propert = _manager.OpenCloseMenu.GetOpenCloseMenuId(id, trackChanges);

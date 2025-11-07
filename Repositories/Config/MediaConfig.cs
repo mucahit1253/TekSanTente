@@ -219,9 +219,34 @@ namespace Repositories.Config
                 new Media() { Id = 161, FileName = "bio-klimatik-tente-1.jpg", Url = "/assets/img/properties/bio-klimatik-tente-1.jpg", AltText = "bio-klimatik-tente-1", ContentType = "image/jpeg" },
                 new Media() { Id = 162, FileName = "bio-klimatik-tente-2.jpg", Url = "/assets/img/properties/bio-klimatik-tente-2.jpg", AltText = "bio-klimatik-tente-2", ContentType = "image/jpeg" },
                 new Media() { Id = 163, FileName = "bio-klimatik-tente-3.jpg", Url = "/assets/img/properties/bio-klimatik-tente-3.jpg", AltText = "bio-klimatik-tente-3", ContentType = "image/jpeg" },
-                new Media() { Id = 164, FileName = "bio-klimatik-tente-4.jpg", Url = "/assets/img/properties/bio-klimatik-tente-4.jpg", AltText = "bio-klimatik-tente-4", ContentType = "image/jpeg" }
+                new Media() { Id = 164, FileName = "bio-klimatik-tente-4.jpg", Url = "/assets/img/properties/bio-klimatik-tente-4.jpg", AltText = "bio-klimatik-tente-4", ContentType = "image/jpeg" },
 
-
+                //Teknik özellikler
+                new Media() { Id = 165, FileName = "Pergola-Tente-Teknik-Ozellikleri.jpg", Url = "/assets/img/service/teknikozellik/Pergola-Tente-Teknik-Ozellikleri.jpg", AltText = "Pergola-Tente-Teknik-Ozellikleri", ContentType = "image/jpeg" },
+                //Blackout Pergola Tente Kumaşı
+                new Media() { Id = 166, FileName = "blackout-pergola-tente-kumaşı-1.jpg", Url = "/assets/img/service/blackout/blackout-pergola-tente-kumaşı-1.jpg", AltText = "blackout-pergola-tente-kumaşı-1", ContentType = "image/jpeg" },
+                new Media() { Id = 167, FileName = "blackout-pergola-tente-kumaşı-2.jpg", Url = "/assets/img/service/blackout/blackout-pergola-tente-kumaşı-2.jpg", AltText = "blackout-pergola-tente-kumaşı-2", ContentType = "image/jpeg" },
+                new Media() { Id = 168, FileName = "blackout-pergola-tente-kumaşı-3.jpg", Url = "/assets/img/service/blackout/blackout-pergola-tente-kumaşı-3.jpg", AltText = "blackout-pergola-tente-kumaşı-3", ContentType = "image/jpeg" },
+                //pergolateknik
+                new Media() { Id = 169, FileName = "pergolateknik-1.jpg", Url = "/assets/img/service/pergolateknik/pergolateknik-1.jpg", AltText = "pergolateknik-1", ContentType = "image/jpeg" },
+                new Media() { Id = 170, FileName = "pergolateknik-2.jpg", Url = "/assets/img/service/pergolateknik/pergolateknik-2.jpg", AltText = "pergolateknik-2", ContentType = "image/jpeg" },
+                new Media() { Id = 171, FileName = "pergolateknik-3.jpg", Url = "/assets/img/service/pergolateknik/pergolateknik-3.jpg", AltText = "pergolateknik-3", ContentType = "image/jpeg" },
+                //tenteimalatı
+                new Media() { Id = 172, FileName = "tente-imalatı-1.jpg", Url = "/assets/img/service/tenteimalati/tente-imalatı-1.jpg", AltText = "tente-imalatı-1", ContentType = "image/jpeg" },
+                new Media() { Id = 173, FileName = "tente-imalatı-2.jpg", Url = "/assets/img/service/tenteimalati/tente-imalatı-2.jpg", AltText = "tente-imalatı-2", ContentType = "image/jpeg" },
+                new Media() { Id = 174, FileName = "tente-imalatı-3.jpg", Url = "/assets/img/service/tenteimalati/tente-imalatı-3.jpg", AltText = "tente-imalatı-3", ContentType = "image/jpeg" },
+                //kullanim-ozellikleri
+                new Media() { Id = 175, FileName = "kullanim-ozellikleri-1.jpg", Url = "/assets/img/service/kullanim-ozellikleri/kullanim-ozellikleri-1.jpg", AltText = "kullanim-ozellikleri-1", ContentType = "image/jpeg" },
+                new Media() { Id = 176, FileName = "kullanim-ozellikleri-2.jpg", Url = "/assets/img/service/kullanim-ozellikleri/kullanim-ozellikleri-2.jpg", AltText = "kullanim-ozellikleri-2", ContentType = "image/jpeg" },
+                new Media() { Id = 177, FileName = "kullanim-ozellikleri-3.jpg", Url = "/assets/img/service/kullanim-ozellikleri/kullanim-ozellikleri-3.jpg", AltText = "kullanim-ozellikleri-3", ContentType = "image/jpeg" },
+                //projeler
+                new Media() { Id = 178, FileName = "projeler-1.jpg", Url = "/assets/img/service/projeler/projeler-1.jpg", AltText = "projeler-1", ContentType = "image/jpeg" },
+                new Media() { Id = 179, FileName = "projeler-2.jpg", Url = "/assets/img/service/projeler/projeler-2.jpg", AltText = "projeler-2", ContentType = "image/jpeg" },
+                new Media() { Id = 180, FileName = "projeler-3.jpg", Url = "/assets/img/service/projeler/projeler-3.jpg", AltText = "projeler-3", ContentType = "image/jpeg" },
+                //faydali-bilgiler
+                new Media() { Id = 181, FileName = "faydali-bilgiler-1.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-1.jpg", AltText = "faydali-bilgiler-1", ContentType = "image/jpeg" },
+                new Media() { Id = 182, FileName = "faydali-bilgiler-2.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-2.jpg", AltText = "faydali-bilgiler-2", ContentType = "image/jpeg" },
+                new Media() { Id = 183, FileName = "faydali-bilgiler-3.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-3.jpg", AltText = "faydali-bilgiler-3", ContentType = "image/jpeg" }
 
 
                 );

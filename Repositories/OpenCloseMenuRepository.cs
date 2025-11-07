@@ -47,5 +47,15 @@ namespace Repositories
             return query;
 
         }
+
+        public Service? GetServiceWithImagesAndDescription(string slug, bool trackChanges)
+        {
+            var query = _context.Services
+               .Where(s => s.Slug == slug)
+               .Include(s => s.Images)               // ilişkili ServiceImage tablosunu getirir
+               .ThenInclude(i => i.Media)            // ServiceImage içindeki Media'yı da getirir (varsa)
+               .AsNoTracking();
+            return query.FirstOrDefault();
+        }
     }
 }

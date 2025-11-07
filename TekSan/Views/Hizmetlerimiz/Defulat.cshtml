@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Service>
+﻿@model Service
 
 
 <main class="main">
@@ -31,10 +31,31 @@
                     @await Component.InvokeAsync("NavbarMenu")
 
                 </div>
+                <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+                    @if (Model.Images != null && Model.Images.Any())
+                    {
+                        <div class="row">
+                            @foreach (var img in Model.Images)
+                            {
+                                var url = img.Media?.Url ?? Url.Content("~/assets/img/placeholder.png");
+                                <div class="col-md-4 mb-3">
+                                    <img src="@url" alt="@Model.Name" class="img-fluid services-img" width="475" />
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <p>Henüz resim eklenmemiş.</p>
+                    }
+
+                    <p>@Model.Description</p>
+                </div>
+
             </div>
             <!-- 🔽 Alt kısım: Resimler tam genişlikte -->
-            @* @await Component.InvokeAsync("ProductVcnt") *@
             @await Component.InvokeAsync("ProductFooterGet")
+
         </div>
     </section>
 </main>

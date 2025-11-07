@@ -42,49 +42,63 @@ namespace TekSan.Controllers
 
             return View("Detail", svc); // fallback
         }
-        [HttpGet("teknik-servis/{id}")]
-        public IActionResult TeknikServis(int id)
+        [HttpGet("teknik-servis")]
+        public IActionResult TeknikServis(string slug)
         {
-            var query = _manager.OpenCloseMenuService.FindById(id, false);
-            return View("teknik-servis", query); // -> Views/Hizmetlerimiz/teknik-servis.cshtml
+            const string fixedSlug = "teknik-servis"; // veritabanındaki slug
+            var query = _manager.OpenCloseMenuService.GetServiceWithImagesAndDescription(fixedSlug, false);
+            return View("Defulat", query); // -> Views/Hizmetlerimiz/teknik-servis.cshtml
 
         }
         [HttpGet("teknik-ozellikler")]
-        public IActionResult TeknikOzellikler()
+        public IActionResult TeknikOzellikler(string slug)
         {
-
-            return View("teknik-ozellikler"); // -> Views/Hizmetlerimiz/teknik-servis.cshtml
+            const string fixedSlug = "teknik-ozellikler"; // veritabanındaki slug
+            var query = _manager.OpenCloseMenuService.GetServiceWithImagesAndDescription(fixedSlug, false);
+            return View("Defulat", query); // -> Views/Hizmetlerimiz/teknik-servis.cshtml
 
         }
         [HttpGet("blackout-pergola-tente-kumasi")]
-        public IActionResult BlackoutPergolaTenteKumasi()
+        public IActionResult BlackoutPergolaTenteKumasi(string slug)
         {
-            return View("blackout-pergola-tente-kumasi");
+            const string fixedSlug = "blackout-pergola-tente-kumasi"; // veritabanındaki slug
+            var query = _manager.OpenCloseMenuService.GetServiceWithImagesAndDescription(fixedSlug, false);
+            return View("Defulat", query);
         }
         [HttpGet("pergola-tente-teknik-ozellikleri")]
-        public IActionResult PergolaTenteTeknikOzellikleri()
+        public IActionResult PergolaTenteTeknikOzellikleri(string slug)
         {
-            return View("pergola-tente-teknik-ozellikleri");
+            const string fixedSlug = "pergola-tente-teknik-ozellikleri"; // veritabanındaki slug
+            var query = _manager.OpenCloseMenuService.GetServiceWithImagesAndDescription(fixedSlug, false);
+            return View("Defulat", query);
         }
         [HttpGet("pergola-tente-imalati-cesitleri")]
-        public IActionResult PergolaTenteImalatiCesitleri()
+        public IActionResult PergolaTenteImalatiCesitleri(string slug)
         {
-            return View("pergola-tente-imalati-cesitleri");
+            const string fixedSlug = "pergola-tente-imalati-cesitleri"; // veritabanındaki slug
+            var query = _manager.OpenCloseMenuService.GetServiceWithImagesAndDescription(fixedSlug, false);
+            return View("Defulat", query);
         }
         [HttpGet("kullanim-ozellikleri")]
-        public IActionResult KullanimOzellikleri()
+        public IActionResult KullanimOzellikleri(string slug)
         {
-            return View("kullanim-ozellikleri");
+            const string fixedSlug = "kullanim-ozellikleri"; // veritabanındaki slug
+            var query = _manager.OpenCloseMenuService.GetServiceWithImagesAndDescription(fixedSlug, false);
+            return View("Defulat", query);
         }
         [HttpGet("projeler")]
-        public IActionResult Projeler()
+        public IActionResult Projeler(string slug)
         {
-            return View("projeler");
+            const string fixedSlug = "projeler"; // veritabanındaki slug
+            var query = _manager.OpenCloseMenuService.GetServiceWithImagesAndDescription(fixedSlug, false);
+            return View("Defulat", query);
         }
         [HttpGet("faydali-bilgiler")]
-        public IActionResult FaydaliBilgiler()
+        public IActionResult FaydaliBilgiler(string slug)
         {
-            return View("faydali-bilgiler");
+            const string fixedSlug = "faydali-bilgiler"; // veritabanındaki slug
+            var query = _manager.OpenCloseMenuService.GetServiceWithImagesAndDescription(fixedSlug, false);
+            return View("Defulat", query);
         }
         private bool ViewExists(string viewName)
         {
