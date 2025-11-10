@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Service>
+@{
+    // URL'den slug alıyoruz
+    var currentSlug = (ViewContext.RouteData.Values["slug"] as string) ?? "";
+    Func<Service, bool> isActive = s => string.Equals(s.Slug, currentSlug, StringComparison.OrdinalIgnoreCase);
+}
+
+<nav class="service-box">
+    <h4><a asp-controller="Hizmetlerimiz" asp-action="Index">Hizmetlerimiz</a> </h4>
+
+    <div class="services-list">
+        @* Ana menüleri döngüye al *@
+        @foreach (var parent in Model.OrderBy(s => s.Id))
+        {
+            var childActive = parent.Children?.Any(c => isActive(c)) ?? false;
+            var parentActive = isActive(parent) || childActive;
+
+            <a asp-controller="Hizmetlerimiz"
+               asp-action="Detail"
+               asp-route-slug="@parent.Slug"
+               class="service-link @(parentActive ? "active" : "")">
+                <i class="bi bi-arrow-right-circle"></i>
+                <span>@parent.Name</span>
+            </a>
+
+            @* Eğer alt menüleri varsa göster *@
+            if (parent.Children != null && parent.Children.Any())
+            {
+                <div class="sub-services @(childActive ? "open" : "")">
+                    @foreach (var child in parent.Children.OrderBy(c => c.Id))
+                    {
+                        <a asp-controller="Hizmetlerimiz"
+                           asp-action="Detail"
+                           asp-route-slug="@child.Slug"
+                           class="sub-link @(isActive(child) ? "active" : "")">
+                            <i class="bi bi-chevron-right"></i>
+                            <span>@child.Name</span>
+                        </a>
+                    }
+                </div>
+            }
+        }
+    </div>
+</nav>
+
+<style>
+    /* Sol menü stilleri */
+    .service-box {
+        background: #fff;
+        border: 1px solid #eee;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+    .services-list .service-link,
+    .services-list .sub-link {
+        display: block;
+        text-decoration: none;
+        padding: .4rem .5rem;
+        color: #333;
+        transition: 0.2s ease;
+    }
+    .services-list .service-link:hover,
+    .services-list .sub-link:hover {
+        color: #007bff;
+    }
+    .services-list .active {
+        font-weight: 600;
+        color: #007bff;
+    }
+    .sub-services {
+        margin-left: 1rem;
+        border-left: 1px solid #e5e7eb;
+        padding-left: .6rem;
+    }
+</style>

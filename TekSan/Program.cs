@@ -1,4 +1,9 @@
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.EntityFrameworkCore;
+using Repositories;
+using Repositories.Contracts;
+using Services;
+using Services.Contracts;
 using System.Threading.RateLimiting;
 
 namespace TekSan
@@ -62,6 +67,30 @@ namespace TekSan
                     await context.HttpContext.Response.WriteAsync("Çok fazla istek. Lütfen sonra tekrar dene.", ct);
                 };
             });
+            builder.Services.AddDbContext<RepositoryContext>(options =>
+            {
+                options.UseNpgsql(builder.Configuration.GetConnectionString("sqlconnection"),
+                    b => b.MigrationsAssembly("TekSan"));
+            });
+            //Repo Kayýt
+            builder.Services.AddScoped<IRepositoryManager, RepositoryManger>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IOpenCloseMenuRepository, OpenCloseMenuRepository>();
+            builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
+
+
+            //Service Kayýt
+            builder.Services.AddScoped<IServiceManager, ServiceManager>();
+            builder.Services.AddScoped<IProductService, ProductManager>();
+            builder.Services.AddScoped<ICategoryService, CategoryManager>();
+            builder.Services.AddScoped<IOpenCloseMenuService, OpenCloseMenuManager>();
+            builder.Services.AddScoped<IProductImageService, ProductImageManager>();
+
+
+
+
+
 
             builder.Services.AddControllersWithViews();
 

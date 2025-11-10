@@ -1,0 +1,67 @@
+﻿@model Product
+@using System.Globalization
+
+@{
+    // 1) Önce kapak (IsMain==true), yoksa ilk görsel
+    var coverUrl =
+        Model.Images?
+            .Where(i => i.IsMain)
+            .OrderBy(i => i.DisplayOrder)
+            .Select(i => i.Media?.Url)
+            .FirstOrDefault()
+        ?? Model.Images?
+            .OrderBy(i => i.DisplayOrder)
+            .Select(i => i.Media?.Url)
+            .FirstOrDefault();
+
+    // 2) URL normalize + placeholder
+    var raw = string.IsNullOrWhiteSpace(coverUrl)
+        ? "~/assets/img/placeholder.png"
+        : coverUrl!;
+
+    // Eğer raw zaten "/" veya "~/" ile başlıyorsa bırak; değilse "~/" ekle
+    var needsTilde = !(raw.StartsWith("/") || raw.StartsWith("~/"));
+    var normalized = needsTilde ? "~/" + raw.TrimStart('/') : raw;
+    var imgPath = Url.Content(normalized);
+
+    // 3) Fiyat (null ise boş/çizgi)
+    var priceText = Model.Price.HasValue
+        ? Model.Price.Value.ToString("C2", new CultureInfo("tr-TR"))
+        : "-";
+}
+
+<div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+    <div class="card">
+        <img src="@imgPath" alt="@Model.Name" class="img-fluid"  />
+
+        <div class="card-body">
+            <span class="sale-rent">Satın Al</span>
+            <h3>
+                <a asp-action="Get" asp-route-slug="@Model.Slug" class="stretched-link">
+                    @Model.Name
+                </a>
+            </h3>
+
+            <div class="card-content d-flex flex-column justify-content-center text-center">
+                <div class="row property-info">
+                    <div class="col">Alan</div>
+                    <div class="col">Ürün Adı</div>
+                    <div class="col">Fiyat</div>
+                </div>
+                <div class="row">
+                    <div class="col">1 m²</div>
+                    <div class="col">  @Truncate(Model.Name, 15)</div>
+                    <div class="col">@priceText</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@functions {
+    string Truncate(string? text, int max)
+    {
+        if (string.IsNullOrWhiteSpace(text)) return "";
+        text = text.Trim();
+        return text.Length <= max ? text : text.Substring(0, max).TrimEnd() + "…";
+    }
+}

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<!-- Anasayfa -->
+	<url>
+		<loc>https://teksantentee.com/</loc>
+		<lastmod>2025-11-10</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+	<!-- Ürünler (Category listesi) -->
+	<url>
+		<loc>https://teksantentee.com/Category</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<!-- Örnek kategoriler -->
+	<url>
+		<loc>https://teksantentee.com/Product?categoryId=1</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://teksantentee.com/Product?categoryId=2</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://teksantentee.com/Product?categoryId=3</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://teksantentee.com/Product?categoryId=4</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://teksantentee.com/Product?categoryId=5</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://teksantentee.com/Product?categoryId=6</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<!-- Ürün detayları (slug’lar ile SEO uyumlu) -->
+	<url>
+		<loc>https://teksantentee.com/Product/get/bio-klimatik-tente</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://teksantentee.com/Product/get/cam-balkon</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://teksantentee.com/Product/get/giyotin-cam</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+
+</urlset>
