@@ -342,7 +342,10 @@ namespace TekSan.Migrations
                     { 180, "projeler-3", "image/jpeg", "projeler-3.jpg", "/assets/img/service/projeler/projeler-3.jpg" },
                     { 181, "faydali-bilgiler-1", "image/jpeg", "faydali-bilgiler-1.jpg", "/assets/img/service/faydali-bilgiler/faydali-bilgiler-1.jpg" },
                     { 182, "faydali-bilgiler-2", "image/jpeg", "faydali-bilgiler-2.jpg", "/assets/img/service/faydali-bilgiler/faydali-bilgiler-2.jpg" },
-                    { 183, "faydali-bilgiler-3", "image/jpeg", "faydali-bilgiler-3.jpg", "/assets/img/service/faydali-bilgiler/faydali-bilgiler-3.jpg" }
+                    { 183, "faydali-bilgiler-3", "image/jpeg", "faydali-bilgiler-3.jpg", "/assets/img/service/faydali-bilgiler/faydali-bilgiler-3.jpg" },
+                    { 184, "teknikservis-1", "image/jpeg", "teknikservis-1.jpg", "/assets/img/service/teknikservis/teknikservis-1.jpg" },
+                    { 185, "teknikservis-2", "image/jpeg", "teknikservis-2.jpg", "/assets/img/service/teknikservis/teknikservis-2.jpg" },
+                    { 186, "teknikservis-3", "image/jpeg", "teknikservis-3.jpg", "/assets/img/service/teknikservis/teknikservis-3.jpg" }
                 });
 
             migrationBuilder.InsertData(
@@ -421,7 +424,10 @@ namespace TekSan.Migrations
                     { 17, 180, 7 },
                     { 18, 181, 8 },
                     { 19, 182, 8 },
-                    { 20, 183, 8 }
+                    { 20, 183, 8 },
+                    { 21, 184, 1 },
+                    { 22, 185, 1 },
+                    { 23, 186, 1 }
                 });
 
             migrationBuilder.InsertData(

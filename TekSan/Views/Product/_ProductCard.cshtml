@@ -50,10 +50,18 @@
                 </div>
                 <div class="row">
                     <div class="col">1 m²</div>
-                    <div class="col">@Model.Name</div>
+                    <div class="col">  @Truncate(Model.Name, 15)</div>
                     <div class="col">@priceText</div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+@functions {
+    string Truncate(string? text, int max)
+    {
+        if (string.IsNullOrWhiteSpace(text)) return "";
+        text = text.Trim();
+        return text.Length <= max ? text : text.Substring(0, max).TrimEnd() + "…";
+    }
+}

@@ -12,7 +12,7 @@ using Repositories;
 namespace TekSan.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20251107200520_init")]
+    [Migration("20251110081732_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -1595,6 +1595,30 @@ namespace TekSan.Migrations
                             ContentType = "image/jpeg",
                             FileName = "faydali-bilgiler-3.jpg",
                             Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-3.jpg"
+                        },
+                        new
+                        {
+                            Id = 184,
+                            AltText = "teknikservis-1",
+                            ContentType = "image/jpeg",
+                            FileName = "teknikservis-1.jpg",
+                            Url = "/assets/img/service/teknikservis/teknikservis-1.jpg"
+                        },
+                        new
+                        {
+                            Id = 185,
+                            AltText = "teknikservis-2",
+                            ContentType = "image/jpeg",
+                            FileName = "teknikservis-2.jpg",
+                            Url = "/assets/img/service/teknikservis/teknikservis-2.jpg"
+                        },
+                        new
+                        {
+                            Id = 186,
+                            AltText = "teknikservis-3",
+                            ContentType = "image/jpeg",
+                            FileName = "teknikservis-3.jpg",
+                            Url = "/assets/img/service/teknikservis/teknikservis-3.jpg"
                         });
                 });
 
@@ -3536,6 +3560,24 @@ namespace TekSan.Migrations
                             Id = 20,
                             MediaId = 183,
                             ServiceId = 8
+                        },
+                        new
+                        {
+                            Id = 21,
+                            MediaId = 184,
+                            ServiceId = 1
+                        },
+                        new
+                        {
+                            Id = 22,
+                            MediaId = 185,
+                            ServiceId = 1
+                        },
+                        new
+                        {
+                            Id = 23,
+                            MediaId = 186,
+                            ServiceId = 1
                         });
                 });
 

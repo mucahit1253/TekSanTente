@@ -10,7 +10,9 @@ namespace Repositories.Config
         {
             builder.HasKey(p => p.Id);
             builder.HasData(
+                //teknikservis
                 new ServiceImage() { Id = 1, ServiceId = 1, MediaId = 3 },
+
                 new ServiceImage() { Id = 2, ServiceId = 2, MediaId = 165 },
                 //Blackout Pergola Tente Kumaşı
                 new ServiceImage() { Id = 3, ServiceId = 3, MediaId = 166 },
@@ -35,8 +37,11 @@ namespace Repositories.Config
                 //faydali-bilgiler
                 new ServiceImage() { Id = 18, ServiceId = 8, MediaId = 181 },
                 new ServiceImage() { Id = 19, ServiceId = 8, MediaId = 182 },
-                new ServiceImage() { Id = 20, ServiceId = 8, MediaId = 183 }
-
+                new ServiceImage() { Id = 20, ServiceId = 8, MediaId = 183 },
+                //teknikservis
+                new ServiceImage() { Id = 21, ServiceId = 1, MediaId = 184 },
+                new ServiceImage() { Id = 22, ServiceId = 1, MediaId = 185 },
+                new ServiceImage() { Id = 23, ServiceId = 1, MediaId = 186 }
 
 
 

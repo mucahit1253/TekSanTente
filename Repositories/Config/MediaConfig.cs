@@ -246,8 +246,11 @@ namespace Repositories.Config
                 //faydali-bilgiler
                 new Media() { Id = 181, FileName = "faydali-bilgiler-1.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-1.jpg", AltText = "faydali-bilgiler-1", ContentType = "image/jpeg" },
                 new Media() { Id = 182, FileName = "faydali-bilgiler-2.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-2.jpg", AltText = "faydali-bilgiler-2", ContentType = "image/jpeg" },
-                new Media() { Id = 183, FileName = "faydali-bilgiler-3.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-3.jpg", AltText = "faydali-bilgiler-3", ContentType = "image/jpeg" }
-
+                new Media() { Id = 183, FileName = "faydali-bilgiler-3.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-3.jpg", AltText = "faydali-bilgiler-3", ContentType = "image/jpeg" },
+                //teknikservis
+                new Media() { Id = 184, FileName = "teknikservis-1.jpg", Url = "/assets/img/service/teknikservis/teknikservis-1.jpg", AltText = "teknikservis-1", ContentType = "image/jpeg" },
+                new Media() { Id = 185, FileName = "teknikservis-2.jpg", Url = "/assets/img/service/teknikservis/teknikservis-2.jpg", AltText = "teknikservis-2", ContentType = "image/jpeg" },
+                new Media() { Id = 186, FileName = "teknikservis-3.jpg", Url = "/assets/img/service/teknikservis/teknikservis-3.jpg", AltText = "teknikservis-3", ContentType = "image/jpeg" }
 
                 );
         }
