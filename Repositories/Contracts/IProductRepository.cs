@@ -16,5 +16,8 @@ namespace Repositories.Contracts
         IQueryable<Product> GetByProductImgImages(int productId, bool trackChanges);
         //ilk yirmi kayıt
         IQueryable<Product> GetTwentyProduct(bool trackChanges);
+
+
+
     }
 }

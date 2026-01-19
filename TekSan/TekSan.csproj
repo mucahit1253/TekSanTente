@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\assets\img\service\kullanim-ozellikleri\" />
     <Folder Include="wwwroot\assets\img\service\faydali-bilgiler\" />
     <Folder Include="wwwroot\assets\img\service\projeler\" />

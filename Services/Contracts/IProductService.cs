@@ -10,5 +10,8 @@ namespace Services.Contracts
         IEnumerable<Product> GetByCategoryWithImages(int categoryId, bool trackChanges);
         public IQueryable<Product> GetByProductImgImages(int productId, bool trackChanges);
         IQueryable<Product> GetTwentyProduct(bool trackChanges);
+
+
+
     }
 }
