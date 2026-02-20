@@ -11,6 +11,7 @@ namespace Services.Contracts
         public IQueryable<Product> GetByProductImgImages(int productId, bool trackChanges);
         IQueryable<Product> GetTwentyProduct(bool trackChanges);
 
+        void CreateProduct(Product product);
 
 
     }

@@ -244,7 +244,7 @@ namespace Repositories.Config
                 new Media() { Id = 179, FileName = "projeler-2.jpg", Url = "/assets/img/service/projeler/projeler-2.jpg", AltText = "projeler-2", ContentType = "image/jpeg" },
                 new Media() { Id = 180, FileName = "projeler-3.jpg", Url = "/assets/img/service/projeler/projeler-3.jpg", AltText = "projeler-3", ContentType = "image/jpeg" },
                 //faydali-bilgiler
-                new Media() { Id = 181, FileName = "faydali-bilgiler-1.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-1.jpg", AltText = "faydali-bilgiler-1", ContentType = "image/jpeg" },
+                new Media() { Id = 181, FileName = "faydali-bilgiler-1.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-1.1.jpg", AltText = "faydali-bilgiler-1", ContentType = "image/jpeg" },
                 new Media() { Id = 182, FileName = "faydali-bilgiler-2.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-2.jpg", AltText = "faydali-bilgiler-2", ContentType = "image/jpeg" },
                 new Media() { Id = 183, FileName = "faydali-bilgiler-3.jpg", Url = "/assets/img/service/faydali-bilgiler/faydali-bilgiler-3.jpg", AltText = "faydali-bilgiler-3", ContentType = "image/jpeg" },
                 //teknikservis

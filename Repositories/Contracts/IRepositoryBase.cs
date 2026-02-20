@@ -8,5 +8,7 @@ namespace Repositories.Contracts
         T? FindByCondition(Expression<Func<T, bool>> exception, bool trackChanges);
         IQueryable<T> FindCondition(Expression<Func<T, bool>> exception, bool trackChanges);
 
+        //Creat
+        void Create(T entity);
     }
 }

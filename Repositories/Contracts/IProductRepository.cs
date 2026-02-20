@@ -17,6 +17,8 @@ namespace Repositories.Contracts
         //ilk yirmi kayıt
         IQueryable<Product> GetTwentyProduct(bool trackChanges);
 
+        //CerateMetod
+        void CreateProduct(Product product);
 
 
     }

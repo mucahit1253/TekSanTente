@@ -1,0 +1,33 @@
+﻿@model Product
+
+<div class="text-center">
+    <div class="display-6">Yeni Urun</div>
+
+</div>
+<form method="post" asp-action="Create">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <div class="form-group my-3">
+        <label asp-for="Name">Ürün Adı</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group my-3">
+        <label asp-for="Slug">Slug</label>
+        <input asp-for="Slug" class="form-control" />
+    </div>
+    <div class="form-group my-3">
+        <label asp-for="Price">Fiyat</label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group my-3">
+        <div class="btn btn-group">
+        <button class="btn btn-primary" type="submit">
+            <i class="fa fa-save"></i>
+            Kaydet</button>
+           <a asp-action="Index" class="btn btn-outline-primary">
+                <i class="fa fa-list"></i>
+               Ürünler</a>
+        </div>
+    </div>
+  
+
+</form>

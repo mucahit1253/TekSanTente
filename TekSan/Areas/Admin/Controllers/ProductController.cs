@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Entities.Models;
+using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
 
 namespace TekSan.Areas.Admin.Controllers
@@ -30,6 +31,22 @@ namespace TekSan.Areas.Admin.Controllers
             ViewBag.CurrentPage = page;
             ViewBag.TotalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
             return View(products);
+        }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create([FromForm] Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                _manager.ProductService.CreateProduct(product);
+                return RedirectToAction("Index");
+            }
+            return View();
+
         }
     }
 }
