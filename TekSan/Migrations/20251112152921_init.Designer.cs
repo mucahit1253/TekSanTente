@@ -12,7 +12,7 @@ using Repositories;
 namespace TekSan.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20251110081732_init")]
+    [Migration("20251112152921_init")]
     partial class init
     {
         /// <inheritdoc />
